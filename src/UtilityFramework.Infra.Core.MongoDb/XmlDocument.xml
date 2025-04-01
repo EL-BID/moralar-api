@@ -1,0 +1,1323 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UtilityFramework.Infra.Core.MongoDb</name>
+    </assembly>
+    <members>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <inheritdoc />
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.GetCollection">
+            <summary>
+                collection off documents
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.Create(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.Create(System.Collections.Generic.IList{`0})">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.CreateReturn(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <param name="notUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.UpdateOne(`0)">
+            <summary>
+                UPDATE ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.UpdateMultiple(MongoDB.Driver.IMongoQuery,MongoDB.Driver.Builders.UpdateBuilder{`0},MongoDB.Driver.UpdateFlags)">
+            <summary>
+                UPDATE MULTIPLE
+            </summary>
+            <param name="condition"></param>
+            <param name="update"></param>
+            <param name="flags"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.Update(`0)">
+            <summary>
+                UPDATE ENTITY AND RETURN
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.DeleteOne(System.String)">
+            <summary>
+                DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.CheckBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                CHECK CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.DisableOne(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.EnableOne(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindById(System.String)">
+            <summary>
+                FIND ENDITY FROM ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindOneBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND ONE ENTITY FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindAll">
+            <summary>
+                FIND ALL ENTITY
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindAll(MongoDB.Driver.IMongoSortBy)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND BY CONDITION SIMPLE
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.IMongoSortBy)">
+            <summary>
+                FIND BY CONDITION WITH ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)">
+            <summary>
+                FINDY BY CONDITION WITH PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.IMongoSortBy,System.Int32)">
+            <summary>
+                FIND BY CONDITION WITH SORTBY AND PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNear(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITION
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNear(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITION
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNearWithDistance(System.Double,System.Double,System.Double,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distanceProperty"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.FindByNearWithDistance(System.Double,System.Double,System.Double,System.Int32,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)">
+            <summary>
+                FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distanceProperty"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.CountLong(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.CalculateRadius(System.Double)">
+            <summary>
+                return radius
+            </summary>
+            <param name="radius">VALUE IN KM</param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.ReadMongoClientSettings">
+            <summary>
+                readconfig dataclient
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBase`1.ListServers">
+            <summary>
+                get servers configuration
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CalculateRadius(System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CreateAsync(`0)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CreateAsync(System.Collections.Generic.IList{`0})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CreateReturnAsync(`0)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.UpdateOneAsync(`0)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.UpdateAsync(`0)" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.DeleteOneAsync(System.String)">
+            <summary>
+                DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.DeleteAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CheckByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.DisableOneAsync(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.EnableOneAsync(System.String)" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByContais(System.String,System.String)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0},System.Int32)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindIn``1(System.String,System.Collections.Generic.List{``0})">
+            <summary>
+                FIND ALL IN
+            </summary>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0},System.Int32)">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32)">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByIdAsync(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindOneByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindAllAsync" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindAllAsync(MongoDB.Driver.SortDefinition{`0})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.SortDefinition{`0})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.SortDefinition{`0},System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,MongoDB.Driver.SortDefinition{`0},System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CountAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CountLongAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.GetCollectionAsync" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.GetCollection" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.ReadMongoClientSettings" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.ListServers" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.Create(`0)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.Create(System.Collections.Generic.IList{`0})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CreateReturn(`0)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.UpdateOne(`0)" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.UpdateMultiple(MongoDB.Driver.IMongoQuery,MongoDB.Driver.Builders.UpdateBuilder{`0},MongoDB.Driver.UpdateFlags)">
+            <summary>
+                UPDATE MULTIPLE
+            </summary>
+            <param name="condition"></param>
+            <param name="update"></param>
+            <param name="flags"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.Update(`0)" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.DeleteOne(System.String)">
+            <summary>
+                DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CheckBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.DisableOne(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.EnableOne(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindById(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindOneBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindAll" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindAll(MongoDB.Driver.IMongoSortBy)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.IMongoSortBy)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.IMongoSortBy,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearWithDistance(System.Double,System.Double,System.Double,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.FindByNearWithDistance(System.Double,System.Double,System.Double,System.Int32,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.BusinessBaseAsync`1.CountLong(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.Create(`0)">
+            <summary>
+            REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.Create(System.Collections.Generic.IList{`0})">
+            <summary>
+            REGISTER ENTITY MULTIPLE
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.CreateReturn(`0)">
+            <summary>
+            REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.UpdateOne(`0)">
+            <summary>
+            UPDATE ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.UpdateMultiple(MongoDB.Driver.IMongoQuery,MongoDB.Driver.Builders.UpdateBuilder{`0},MongoDB.Driver.UpdateFlags)">
+            <summary>
+            UPDATE ENTITY MULTIPLE
+            </summary>
+            <param name="update"></param>
+            <param name="flags"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.Update(`0)">
+            <summary>
+            UPDATE ENTITY AND RETURN
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.DeleteOne(System.String)">
+            <summary>
+            DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.CheckBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            CHECK CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.DisableOne(System.String)">
+            <summary>
+             SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.EnableOne(System.String)">
+            <summary>
+             SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindById(System.String)">
+            <summary>
+            FIND ENDITY FROM ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindOneBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            FIND ONE ENTITY FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindAll">
+            <summary>
+            FIND ALL ENTITY 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindAll(MongoDB.Driver.IMongoSortBy)">
+            <summary>
+            FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            FIND BY CONDITION SIMPLE
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.IMongoSortBy)">
+            <summary>
+            FIND BY CONDITION WITH ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)">
+            <summary>
+            FINDY BY CONDITION WITH PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.IMongoSortBy,System.Int32)">
+            <summary>
+            FIND BY CONDITION WITH SORTBY AND PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNear(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+            FIND BY NEAR WITH CONDITION
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNear(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+            FIND BY NEAR WITH CONDITIONS and pagination
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+            FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+            FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNearWithDistance(System.Double,System.Double,System.Double,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.FindByNearWithDistance(System.Double,System.Double,System.Double,System.Int32,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)">
+            <summary>
+            FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distaceProperty"></param>
+            <param name="queries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBase`1.GetCollection">
+            <summary>
+            COLLECTION DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CreateAsync(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CreateReturnAsync(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CreateAsync(System.Collections.Generic.IList{`0})">
+            <summary>
+                CREATE MULTIPLE ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.UpdateOneAsync(`0)">
+            <summary>
+                UPDATE ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.UpdateAsync(`0)">
+            <summary>
+                UPDATE ENTITY AND RETURN
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.DeleteOneAsync(System.String)">
+            <summary>
+                DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.DeleteAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CheckByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                CHECK CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.DisableOneAsync(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.EnableOneAsync(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByIdAsync(System.String)">
+            <summary>
+                FIND ENDITY FROM ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindOneByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND ONE ENTITY FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindAllAsync">
+            <summary>
+                FIND ALL ENTITY
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindAllAsync(MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindAllAsync(MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="sortBy"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND BY CONDITION SIMPLE
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND BY CONDITION WITH ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)">
+            <summary>
+                FINDY BY CONDITION WITH PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.SortDefinition{`0},System.Int32)">
+            <summary>
+                FIND BY CONDITION WITH SORTBY AND PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)">
+            <summary>
+                FIND BY NEAR WITH CONDITION
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS and pagination
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,MongoDB.Driver.SortDefinition{`0},System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearAsync(System.Double,System.Double,System.Double,MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.FilterDefinition{`0}},System.Double)">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="limit"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CountAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CountLongAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByContais(System.String,System.String)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0},System.Int32)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByContais(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.String,MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindIn``1(System.String,System.Collections.Generic.List{``0})">
+            <summary>
+                FIND ALL IN
+            </summary>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0})">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0},System.Int32)">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String,System.Collections.Generic.List{``0},MongoDB.Driver.SortDefinition{`0},System.Int32,System.Int32)">
+            <summary>
+                FIND IN
+            </summary>
+            <param name="condition"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <param name="sortBy"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistanceAsync(System.Double,System.Double,System.Double,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistanceAsync(System.Double,System.Double,System.Double,MongoDB.Driver.SortDefinition{`0},UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistanceAsync(System.Double,System.Double,System.Double,System.Int32,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)">
+            <summary>
+                FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distanceProperty"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistanceAsync(System.Double,System.Double,System.Double,System.Int32,MongoDB.Driver.SortDefinition{`0},UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)">
+            <summary>
+                FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distanceProperty"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.GetCollectionAsync">
+            <summary>
+                COLLECTION DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.PrintQuery(MongoDB.Driver.FilterDefinition{`0})">
+            <summary>
+             GERAR QUERY EM JSON
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Create(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Create(System.Collections.Generic.IList{`0})">
+            <summary>
+                REGISTER ENTITY MULTIPLE
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CreateReturn(`0)">
+            <summary>
+                REGISTER ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.UpdateOne(`0)">
+            <summary>
+                UPDATE ENTITY
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.UpdateMultiple(MongoDB.Driver.IMongoQuery,MongoDB.Driver.Builders.UpdateBuilder{`0},MongoDB.Driver.UpdateFlags)">
+            <summary>
+                UPDATE ENTITY MULTIPLE
+            </summary>
+            <param name="update"></param>
+            <param name="flags"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Update(`0)">
+            <summary>
+                UPDATE ENTITY AND RETURN
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.DeleteOne(System.String)">
+            <summary>
+                DELETE FROM ID
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                DELETE ALL FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Delete(`0)">
+            <summary>
+                DELETE FROM ENTITY
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.CheckBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                CHECK CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.DisableOne(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.EnableOne(System.String)">
+            <summary>
+                SET DISABLED
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindById(System.String)">
+            <summary>
+                FIND ENDITY FROM ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindOneBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND ONE ENTITY FROM CONDITION
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindAll">
+            <summary>
+                FIND ALL ENTITY
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindAll(MongoDB.Driver.IMongoSortBy)">
+            <summary>
+                FIND ALL ENTITY ORDERBY
+            </summary>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                FIND BY CONDITION SIMPLE
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},MongoDB.Driver.IMongoSortBy)">
+            <summary>
+                FIND BY CONDITION WITH ORDERBY
+            </summary>
+            <param name="condition"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32)">
+            <summary>
+                FINDY BY CONDITION WITH PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,MongoDB.Driver.IMongoSortBy,System.Int32)">
+            <summary>
+                FIND BY CONDITION WITH SORTBY AND PAGINATION
+            </summary>
+            <param name="condition"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITION
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS and pagination
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNear(System.Double,System.Double,System.Double,MongoDB.Driver.IMongoSortBy,System.Int32,System.Int32,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})">
+            <summary>
+                FIND BY NEAR WITH CONDITIONS AND SORTBY
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="page"></param>
+            <param name="sortBy"></param>
+            <param name="propertyName"></param>
+            <param name="queries"></param>
+            <param name="limit"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistance(System.Double,System.Double,System.Double,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery})" -->
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.FindByNearWithDistance(System.Double,System.Double,System.Double,System.Int32,UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeMetric,System.Boolean,System.String,System.String,System.Collections.Generic.IEnumerable{MongoDB.Driver.IMongoQuery},System.Int32)">
+            <summary>
+                FIND BY NEAR WITH CONDITION AND RETURN AND RETURN DISTANCE
+            </summary>
+            <param name="lat"></param>
+            <param name="lng"></param>
+            <param name="maxDistance"></param>
+            <param name="typeMetric"></param>
+            <param name="spherical"></param>
+            <param name="propertyIndex"></param>
+            <param name="distanceProperty"></param>
+            <param name="queries"></param>
+            <param name="minDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Business.IBusinessBaseAsync`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                COUNT ENTITYS FROM CONDITIONS
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Database.DataAccess.DatabaseAccessAsync">
+            <summary>
+            Return Name connection
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Database.DataAccess.Configuration">
+            <summary>
+            Return configuration object
+            </summary>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Database.DataAccess.#ctor(UtilityFramework.Infra.Core.MongoDb.Data.Database.Interface.IConfiguration)">
+            <summary>
+            Connection Name
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Database.DataAccess.CreateDatabaseAccess">
+            <summary>
+            Create instance to Name
+            </summary>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Database.DataAccess.LoadMongoServer">
+            <summary>
+            Return server connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeDistance.Kilometers">
+            <summary>
+            unidade de medida em kilometers
+            </summary>
+        </member>
+        <member name="F:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.TypeDistance.Miles">
+            <summary>
+            unidade de medida em milhas
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.ModelBase.CollectionName">
+            <summary>
+            Collection on Name
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.ModelBase._id">
+            <summary>
+            Identification
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.ModelBase.Disabled">
+            <summary>
+            Flag delete
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Modelos.ModelBase.DataBlocked">
+            <summary>
+            Data blocked entity
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Server.ConfigurationServer.Server">
+            <summary>
+            Main server
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Server.ConfigurationServer.Servers">
+            <summary>
+            Failover servers
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Server.Interface.IConfigurationServer.Server">
+            <summary>
+            Main server or proxy
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Server.Interface.IConfigurationServer.Servers">
+            <summary>
+            Alternative destinations
+            </summary>
+        </member>
+        <member name="F:UtilityFramework.Infra.Core.MongoDb.Data.Server.ServerAccess._server">
+            <summary>
+            Local connection
+            </summary>
+        </member>
+        <member name="P:UtilityFramework.Infra.Core.MongoDb.Data.Server.ServerAccess.Server">
+            <summary>
+            Return current server
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Server.ServerAccess.#ctor">
+            <summary>
+            Create server connection
+            </summary>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Server.ServerAccess.CreateServerConnection">
+            <summary>
+            Create connection with server
+            </summary>
+        </member>
+        <member name="M:UtilityFramework.Infra.Core.MongoDb.Data.Server.ServerAccess.ListServers">
+            <summary>
+            Return server list avaiable
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

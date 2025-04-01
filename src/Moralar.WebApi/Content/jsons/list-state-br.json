@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Acre",
+    "uf": "AC",
+    "id": "5a0b751e8f846bb1846cd76d"
+  },
+  {
+    "name": "Alagoas",
+    "uf": "AL",
+    "id": "5a0b751e8f846bb1846cd76e"
+  },
+  {
+    "name": "Amapá",
+    "uf": "AP",
+    "id": "5a0b751e8f846bb1846cd770"
+  },
+  {
+    "name": "Amazonas",
+    "uf": "AM",
+    "id": "5a0b751e8f846bb1846cd76f"
+  },
+  {
+    "name": "Bahia",
+    "uf": "BA",
+    "id": "5a0b751e8f846bb1846cd771"
+  },
+  {
+    "name": "Ceará",
+    "uf": "CE",
+    "id": "5a0b751e8f846bb1846cd772"
+  },
+  {
+    "name": "Distrito Federal",
+    "uf": "DF",
+    "id": "5a0b751e8f846bb1846cd773"
+  },
+  {
+    "name": "Espírito Santo",
+    "uf": "ES",
+    "id": "5a0b751e8f846bb1846cd774"
+  },
+  {
+    "name": "Goiás",
+    "uf": "GO",
+    "id": "5a0b751e8f846bb1846cd775"
+  },
+  {
+    "name": "Maranhão",
+    "uf": "MA",
+    "id": "5a0b751e8f846bb1846cd776"
+  },
+  {
+    "name": "Mato Grosso",
+    "uf": "MT",
+    "id": "5a0b751e8f846bb1846cd779"
+  },
+  {
+    "name": "Mato Grosso do Sul",
+    "uf": "MS",
+    "id": "5a0b751e8f846bb1846cd778"
+  },
+  {
+    "name": "Minas Gerais",
+    "uf": "MG",
+    "id": "5a0b751e8f846bb1846cd777"
+  },
+  {
+    "name": "Pará",
+    "uf": "PA",
+    "id": "5a0b751e8f846bb1846cd77a"
+  },
+  {
+    "name": "Paraíba",
+    "uf": "PB",
+    "id": "5a0b751e8f846bb1846cd77b"
+  },
+  {
+    "name": "Paraná",
+    "uf": "PR",
+    "id": "5a0b751e8f846bb1846cd77e"
+  },
+  {
+    "name": "Pernambuco",
+    "uf": "PE",
+    "id": "5a0b751e8f846bb1846cd77c"
+  },
+  {
+    "name": "Piauí",
+    "uf": "PI",
+    "id": "5a0b751e8f846bb1846cd77d"
+  },
+  {
+    "name": "Rio de Janeiro",
+    "uf": "RJ",
+    "id": "5a0b751e8f846bb1846cd77f"
+  },
+  {
+    "name": "Rio Grande do Norte",
+    "uf": "RN",
+    "id": "5a0b751e8f846bb1846cd780"
+  },
+  {
+    "name": "Rio Grande do Sul",
+    "uf": "RS",
+    "id": "5a0b751e8f846bb1846cd783"
+  },
+  {
+    "name": "Rondônia",
+    "uf": "RO",
+    "id": "5a0b751e8f846bb1846cd781"
+  },
+  {
+    "name": "Roraima",
+    "uf": "RR",
+    "id": "5a0b751e8f846bb1846cd782"
+  },
+  {
+    "name": "Santa Catarina",
+    "uf": "SC",
+    "id": "5a0b751e8f846bb1846cd784"
+  },
+  {
+    "name": "São Paulo",
+    "uf": "SP",
+    "id": "5a0b751e8f846bb1846cd786"
+  },
+  {
+    "name": "Sergipe",
+    "uf": "SE",
+    "id": "5a0b751e8f846bb1846cd785"
+  },
+  {
+    "name": "Tocantins",
+    "uf": "TO",
+    "id": "5a0b751e8f846bb1846cd787"
+  }
+]

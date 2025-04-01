@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1998;1701;1702;1591;1572;1571;1573;1587;1570;NU1605;</NoWarn>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1.0" NoWarn="NU1605" />
+    <PackageReference Include="EPPlus" Version="7.4.1" />
+    <PackageReference Include="IronSoftware.System.Drawing" Version="2024.9.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="1.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.0.4" />
+    <PackageReference Include=" Microsoft.AspNetCore.Localization" Version="1.1.3" />
+
+    <PackageReference Include="MimeKit" Version="4.9.0" />
+    <PackageReference Include="MailKit" Version="4.9.0" />
+
+    <PackageReference Include="AspNetCore.Firebase.Authentication" Version="1.0.5" />
+
+    <PackageReference Include="RestSharp.NetCore" Version="1.0.5" />
+
+
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Services\Core\Enum\" />
+    <Folder Include="Services\Core\ViewModels\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Moralar.Data\Moralar.Data.csproj" />
+  </ItemGroup>
+
+</Project>

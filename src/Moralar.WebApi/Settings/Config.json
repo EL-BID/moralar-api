@@ -1,0 +1,49 @@
+﻿{
+  "smsDev": {
+    // CONTA DE TESTE (MEGALEIOS)
+    "apiKey": "{api-key}"
+  },
+  "infobip": {
+    // CONTA DE TESTE (MEGALEIOS)
+    "username": "{username}", //login
+    "password": "{password}" // senha
+  },
+  "iagente": {
+    // CONTA DE TESTE (MEGALEIOS)
+    "username": "", //login
+    "password": "" // senha
+  },
+  "allowAccess": [], //lista de IP liberado para visualizar dashborad hangfire caso ativo
+  "googleMapsKey": "{api key de google maps}",
+  "suportEmail": [ "{Correo de soporte que saldra en el template de correos}" ],
+  "contactEmail": "{contact-email}",
+  "FirebaseSettings": {
+    "urlDataBase": "", // URL DO BANCO DE DADOS
+    "apiKey": "", //CHAVE DA CONTA DO FIREBASE
+    "socialKey": "", //CHAVE DA CONTA DA REDE SOCIAL
+    "email": "", //EMAIL DE ACESSO
+    "password": "", //SENHA DE ACESSO
+    "useAuth": false, //INFORMA SE DESEJA UTILIZAR AUTENTICAÇÃO
+    "typeAuth": 0, //TIPO DE AUTENTICAÇÃO
+    "firebaseAuthType": 0 //TIPO DE AUTENTICAÇÃO SOCIAL DO FIREBASE
+  },
+  "SERVICES": {
+    "ONESIGNAL": [
+      {
+        "KEY": "{one-signal-key}",
+        "SOUND": "default",
+        "ICON": "default",
+        "APPID": "{app-id}"
+      }
+    ],
+    "SMTP": {
+      "TEMPLATE": "Template",
+      "HOST": "{smtp-host}",
+      "PORT": 465, // default: 465; alternative 587
+      "SSL": false, // default fase,
+      "EMAIL": "{smtp-email}",
+      "NAME": "{smtp-name}",
+      "PASSWORD": "{smtp-password}"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" style="width:100%; float: left; margin: 0; padding: 0; ">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BASE E-MAIL</title>
+        <!-- CORES BASICAS  -->
+        <style>
+      .bg-cardbody {
+        background: __bg-cardbody__;
+      }
+      .cl-cardtitle{
+          color: __bg-cardfooter__ !important;
+      }
+      .bg-cardbody small,
+      .bg-cardbody p,
+      .bg-cardbody span,
+      .bg-cardbody b {
+          color:__cl-body__;
+      }
+      .bg-cardfooter {
+        background: __bg-cardfooter__;  
+      }
+      .bg-cardfooter small,
+      .bg-cardfooter p,
+      .bg-cardfooter span,
+      .bg-cardfooter b {
+        color: __bg-cardbody__ !important;
+      }
+        </style>
+    </head>
+    <body style="width:100%; float: left; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background: url('https://apidev.megaleios.com/ApiFaleViva//content/images/pattern.png')">
+        <table style="margin-bottom: 150px; width:100%;">
+            <tr class="bg-cardbody">
+                <td style="max-width:600px; width:100%; margin: 0 auto; padding: 15px 10px; padding:15px 50px 30px 50px; box-shadow: 1px 1px 10px 3px #cacaca; box-sizing: border-box;">
+                    <div style="width: 100%; text-align: center;">
+                        <img src="cid:logo" alt="logo" style="width:100%; max-width: 100px; border: 0;">
+                    </div>
+                    <span class="cl-cardtitle" style="font-weight: 600; font-size: 2em; text-align: center; width: 100%; float: left; margin:15px 0;">
+                        {{ title }}
+                    </span>
+                    <div>
+                        {{ message }}
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-cardfooter" style="width: 100%;  max-width:600px; box-sizing: border-box; margin: 0 auto; min-height: 100px; padding: 10px 0; box-shadow: 1px 1px 10px 3px #cacaca; margin-top: 10px; line-height: 1.6em;">
+                    <small style="width:100%; display: block; text-align: center;">
+                        <span style="font-weight: 900; font-size: 1.2em;">{{ appName }}</span>
+                        <br/>
+                        Todos os direitos reservados 2025
+                        <br/>
+                        <a href="mailto:{{ contact }}">{{ contact }}</a>
+                    </small>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

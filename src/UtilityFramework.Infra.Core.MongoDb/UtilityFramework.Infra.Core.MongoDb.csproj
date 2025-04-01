@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Version>1.0.1.2</Version>
+    <Authors>Megaleios</Authors>
+    <Product>Utility</Product>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;Debug</DefineConstants>
+    <NoWarn>;1584;1658;1711:1712;0693;0162;0612;1634;0618;1998;1701;1702;1591;1572;1571;1573;1587;1570</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Local|AnyCPU'">
+    <DefineConstants>TRACE;Local</DefineConstants>
+    <NoWarn>;1584;1658;1711:1712;0693;0162;0612;1634;0618;1998;1701;1702;1591;1572;1571;1573;1587;1570</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|AnyCPU'">
+    <DefineConstants>TRACE;Test</DefineConstants>
+    <NoWarn>;1584;1658;1711:1712;0693;0162;0612;1634;0618;1998;1701;1702;1591;1572;1571;1573;1587;1570</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;Release</DefineConstants>
+    <NoWarn>;1584;1658;1711:1712;0693;0162;0612;1634;0618;1998;1701;1702;1591;1572;1571;1573;1587;1570</NoWarn>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Business2\**" />
+    <EmbeddedResource Remove="Business2\**" />
+    <None Remove="Business2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Packages for MongoDB -->
+    <!--<PackageReference Include="MongoDB.Driver" Version="2.29.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.29.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.29.0" />-->
+    
+    <PackageReference Include="EnterpriseLibrary.Data" Version="6.0.1304" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="mongocsharpdriver" Version="2.29.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,2502 @@
+﻿[
+  {
+    "code": "AF",
+    "name": "Afeganistão",
+    "native": "Afghan",
+    "phone": "+93",
+    "capital": "Kabul",
+    "currency": "AFN",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+    "id": "5eaca770321b5f56b079ad3c"
+  },
+  {
+    "code": "AL",
+    "name": "Albânia",
+    "native": "Albanian",
+    "phone": "+355",
+    "capital": "Tirana",
+    "currency": "ALL",
+    "flag": "https://flagcdn.com/al.svg",
+    "id": "5eaca770321b5f56b079ad3e"
+  },
+  {
+    "code": "DE",
+    "name": "Alemanha",
+    "native": "German",
+    "phone": "+49",
+    "capital": "Berlin",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/de.svg",
+    "id": "5eaca770321b5f56b079ad90"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "native": "Andorran",
+    "phone": "+376",
+    "capital": "Andorra la Vella",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/ad.svg",
+    "id": "5eaca770321b5f56b079ad41"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "native": "Angolan",
+    "phone": "+244",
+    "capital": "Luanda",
+    "currency": "AOA",
+    "flag": "https://flagcdn.com/ao.svg",
+    "id": "5eaca770321b5f56b079ad42"
+  },
+  {
+    "code": "AI",
+    "name": "Anguila",
+    "native": "Anguillian",
+    "phone": "+1",
+    "capital": "The Valley",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/ai.svg",
+    "id": "5eaca770321b5f56b079ad43"
+  },
+  {
+    "code": "AQ",
+    "name": "Antárctida",
+    "native": "",
+    "phone": "+672",
+    "capital": "",
+    "currency": "Australian dollar,British pound",
+    "flag": "https://flagcdn.com/aq.svg",
+    "id": "5eaca770321b5f56b079ad44"
+  },
+  {
+    "code": "AG",
+    "name": "Antígua e Barbuda",
+    "native": "Antiguan, Barbudan",
+    "phone": "+1",
+    "capital": "Saint John's",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/ag.svg",
+    "id": "5eaca770321b5f56b079ad45"
+  },
+  {
+    "code": "SA",
+    "name": "Arábia Saudita",
+    "native": "Saudi Arabian",
+    "phone": "+966",
+    "capital": "Riyadh",
+    "currency": "SAR",
+    "flag": "https://flagcdn.com/sa.svg",
+    "id": "5eaca771321b5f56b079ae01"
+  },
+  {
+    "code": "DZ",
+    "name": "Argélia",
+    "native": "Algerian",
+    "phone": "+213",
+    "capital": "Algiers",
+    "currency": "DZD",
+    "flag": "https://flagcdn.com/dz.svg",
+    "id": "5eaca770321b5f56b079ad3f"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "native": "Argentinean",
+    "phone": "+54",
+    "capital": "Buenos Aires",
+    "currency": "ARS",
+    "flag": "https://flagcdn.com/ar.svg",
+    "id": "5eaca770321b5f56b079ad46"
+  },
+  {
+    "code": "AM",
+    "name": "Arménia",
+    "native": "Armenian",
+    "phone": "+374",
+    "capital": "Yerevan",
+    "currency": "AMD",
+    "flag": "https://flagcdn.com/am.svg",
+    "id": "5eaca770321b5f56b079ad47"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "native": "Aruban",
+    "phone": "+297",
+    "capital": "Oranjestad",
+    "currency": "AWG",
+    "flag": "https://flagcdn.com/aw.svg",
+    "id": "5eaca770321b5f56b079ad48"
+  },
+  {
+    "code": "AU",
+    "name": "Austrália",
+    "native": "Australian",
+    "phone": "+61",
+    "capital": "Canberra",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/au.svg",
+    "id": "5eaca770321b5f56b079ad49"
+  },
+  {
+    "code": "AT",
+    "name": "áustria",
+    "native": "Austrian",
+    "phone": "+43",
+    "capital": "Vienna",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/at.svg",
+    "id": "5eaca770321b5f56b079ad4a"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijão",
+    "native": "Azerbaijani",
+    "phone": "+994",
+    "capital": "Baku",
+    "currency": "AZN",
+    "flag": "https://flagcdn.com/az.svg",
+    "id": "5eaca770321b5f56b079ad4b"
+  },
+  {
+    "code": "BS",
+    "name": "Baamas",
+    "native": "Bahamian",
+    "phone": "+1",
+    "capital": "Nassau",
+    "currency": "BSD",
+    "flag": "https://flagcdn.com/bs.svg",
+    "id": "5eaca770321b5f56b079ad4c"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladeche",
+    "native": "Bangladeshi",
+    "phone": "+880",
+    "capital": "Dhaka",
+    "currency": "BDT",
+    "flag": "https://flagcdn.com/bd.svg",
+    "id": "5eaca770321b5f56b079ad4e"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "native": "Barbadian",
+    "phone": "+1",
+    "capital": "Bridgetown",
+    "currency": "BBD",
+    "flag": "https://flagcdn.com/bb.svg",
+    "id": "5eaca770321b5f56b079ad4f"
+  },
+  {
+    "code": "BH",
+    "name": "Barém",
+    "native": "Bahraini",
+    "phone": "+973",
+    "capital": "Manama",
+    "currency": "BHD",
+    "flag": "https://flagcdn.com/bh.svg",
+    "id": "5eaca770321b5f56b079ad4d"
+  },
+  {
+    "code": "BE",
+    "name": "Bélgica",
+    "native": "Belgian",
+    "phone": "+32",
+    "capital": "Brussels",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/be.svg",
+    "id": "5eaca770321b5f56b079ad51"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "native": "Belizean",
+    "phone": "+501",
+    "capital": "Belmopan",
+    "currency": "BZD",
+    "flag": "https://flagcdn.com/bz.svg",
+    "id": "5eaca770321b5f56b079ad52"
+  },
+  {
+    "code": "BJ",
+    "name": "Benim",
+    "native": "Beninese",
+    "phone": "+229",
+    "capital": "Porto-Novo",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/bj.svg",
+    "id": "5eaca770321b5f56b079ad53"
+  },
+  {
+    "code": "BM",
+    "name": "Bermudas",
+    "native": "Bermudian",
+    "phone": "+1",
+    "capital": "Hamilton",
+    "currency": "BMD",
+    "flag": "https://flagcdn.com/bm.svg",
+    "id": "5eaca770321b5f56b079ad54"
+  },
+  {
+    "code": "BY",
+    "name": "Bielorrússia",
+    "native": "Belarusian",
+    "phone": "+375",
+    "capital": "Minsk",
+    "currency": "BYN",
+    "flag": "https://flagcdn.com/by.svg",
+    "id": "5eaca770321b5f56b079ad50"
+  },
+  {
+    "code": "BO",
+    "name": "Bolívia",
+    "native": "Bolivian",
+    "phone": "+591",
+    "capital": "Sucre",
+    "currency": "BOB",
+    "flag": "https://flagcdn.com/bo.svg",
+    "id": "5eaca770321b5f56b079ad56"
+  },
+  {
+    "code": "BQ",
+    "name": "Bonaire",
+    "native": "Dutch",
+    "phone": "+599",
+    "capital": "Kralendijk",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/bq.svg",
+    "id": "5eaca770321b5f56b079ad57"
+  },
+  {
+    "code": "BA",
+    "name": "Bósnia e Herzegovina",
+    "native": "Bosnian, Herzegovinian",
+    "phone": "+387",
+    "capital": "Sarajevo",
+    "currency": "BAM",
+    "flag": "https://flagcdn.com/ba.svg",
+    "id": "5eaca770321b5f56b079ad58"
+  },
+  {
+    "code": "BW",
+    "name": "Botsuana",
+    "native": "Motswana",
+    "phone": "+267",
+    "capital": "Gaborone",
+    "currency": "BWP",
+    "flag": "https://flagcdn.com/bw.svg",
+    "id": "5eaca770321b5f56b079ad59"
+  },
+  {
+    "code": "BR",
+    "name": "Brasil",
+    "native": "Brazilian",
+    "phone": "+55",
+    "capital": "Brasília",
+    "currency": "BRL",
+    "flag": "https://flagcdn.com/br.svg",
+    "id": "5eaca770321b5f56b079ad5b"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "native": "Bruneian",
+    "phone": "+673",
+    "capital": "Bandar Seri Begawan",
+    "currency": "BND",
+    "flag": "https://flagcdn.com/bn.svg",
+    "id": "5eaca770321b5f56b079ad60"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgária",
+    "native": "Bulgarian",
+    "phone": "+359",
+    "capital": "Sofia",
+    "currency": "BGN",
+    "flag": "https://flagcdn.com/bg.svg",
+    "id": "5eaca770321b5f56b079ad61"
+  },
+  {
+    "code": "BF",
+    "name": "Burquina Faso",
+    "native": "Burkinabe",
+    "phone": "+226",
+    "capital": "Ouagadougou",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/bf.svg",
+    "id": "5eaca770321b5f56b079ad62"
+  },
+  {
+    "code": "BI",
+    "name": "Burúndi",
+    "native": "Burundian",
+    "phone": "+257",
+    "capital": "Bujumbura",
+    "currency": "BIF",
+    "flag": "https://flagcdn.com/bi.svg",
+    "id": "5eaca770321b5f56b079ad63"
+  },
+  {
+    "code": "BT",
+    "name": "Butão",
+    "native": "Bhutanese",
+    "phone": "+975",
+    "capital": "Thimphu",
+    "currency": "BTN",
+    "flag": "https://flagcdn.com/bt.svg",
+    "id": "5eaca770321b5f56b079ad55"
+  },
+  {
+    "code": "CV",
+    "name": "Cabo Verde",
+    "native": "Cape Verdian",
+    "phone": "+238",
+    "capital": "Praia",
+    "currency": "CVE",
+    "flag": "https://flagcdn.com/cv.svg",
+    "id": "5eaca770321b5f56b079ad67"
+  },
+  {
+    "code": "CM",
+    "name": "Camarões",
+    "native": "Cameroonian",
+    "phone": "+237",
+    "capital": "Yaoundé",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/cm.svg",
+    "id": "5eaca770321b5f56b079ad65"
+  },
+  {
+    "code": "KH",
+    "name": "Camboja",
+    "native": "Cambodian",
+    "phone": "+855",
+    "capital": "Phnom Penh",
+    "currency": "KHR",
+    "flag": "https://flagcdn.com/kh.svg",
+    "id": "5eaca770321b5f56b079ad64"
+  },
+  {
+    "code": "CA",
+    "name": "Canadá",
+    "native": "Canadian",
+    "phone": "+1",
+    "capital": "Ottawa",
+    "currency": "CAD",
+    "flag": "https://flagcdn.com/ca.svg",
+    "id": "5eaca770321b5f56b079ad66"
+  },
+  {
+    "code": "QA",
+    "name": "Catar",
+    "native": "Qatari",
+    "phone": "+974",
+    "capital": "Doha",
+    "currency": "QAR",
+    "flag": "https://flagcdn.com/qa.svg",
+    "id": "5eaca771321b5f56b079adf1"
+  },
+  {
+    "code": "KZ",
+    "name": "Cazaquistão",
+    "native": "Kazakhstani",
+    "phone": "+76",
+    "capital": "Astana",
+    "currency": "KZT",
+    "flag": "https://flagcdn.com/kz.svg",
+    "id": "5eaca771321b5f56b079adb1"
+  },
+  {
+    "code": "TD",
+    "name": "Chade",
+    "native": "Chadian",
+    "phone": "+235",
+    "capital": "N'Djamena",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/td.svg",
+    "id": "5eaca770321b5f56b079ad6a"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "native": "Chilean",
+    "phone": "+56",
+    "capital": "Santiago",
+    "currency": "CLP",
+    "flag": "https://flagcdn.com/cl.svg",
+    "id": "5eaca770321b5f56b079ad6b"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "native": "Chinese",
+    "phone": "+86",
+    "capital": "Beijing",
+    "currency": "CNY",
+    "flag": "https://flagcdn.com/cn.svg",
+    "id": "5eaca770321b5f56b079ad6c"
+  },
+  {
+    "code": "CY",
+    "name": "Chipre",
+    "native": "Cypriot",
+    "phone": "+357",
+    "capital": "Nicosia",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/cy.svg",
+    "id": "5eaca770321b5f56b079ad78"
+  },
+  {
+    "code": "CO",
+    "name": "Colômbia",
+    "native": "Colombian",
+    "phone": "+57",
+    "capital": "Bogotá",
+    "currency": "COP",
+    "flag": "https://flagcdn.com/co.svg",
+    "id": "5eaca770321b5f56b079ad6f"
+  },
+  {
+    "code": "KM",
+    "name": "Comores",
+    "native": "Comoran",
+    "phone": "+269",
+    "capital": "Moroni",
+    "currency": "KMF",
+    "flag": "https://flagcdn.com/km.svg",
+    "id": "5eaca770321b5f56b079ad70"
+  },
+  {
+    "code": "CG",
+    "name": "Congo",
+    "native": "Congolese",
+    "phone": "+242",
+    "capital": "Brazzaville",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/cg.svg",
+    "id": "5eaca770321b5f56b079ad71"
+  },
+  {
+    "code": "KP",
+    "name": "Coreia do Norte",
+    "native": "North Korean",
+    "phone": "+850",
+    "capital": "Pyongyang",
+    "currency": "KPW",
+    "flag": "https://flagcdn.com/kp.svg",
+    "id": "5eaca771321b5f56b079ade1"
+  },
+  {
+    "code": "KR",
+    "name": "Coreia do Sul",
+    "native": "South Korean",
+    "phone": "+82",
+    "capital": "Seoul",
+    "currency": "KRW",
+    "flag": "https://flagcdn.com/kr.svg",
+    "id": "5eaca771321b5f56b079ae0e"
+  },
+  {
+    "code": "CI",
+    "name": "Costa do Marfim",
+    "native": "Ivorian",
+    "phone": "+225",
+    "capital": "Yamoussoukro",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/ci.svg",
+    "id": "5eaca771321b5f56b079ada6"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "native": "Costa Rican",
+    "phone": "+506",
+    "capital": "San José",
+    "currency": "CRC",
+    "flag": "https://flagcdn.com/cr.svg",
+    "id": "5eaca770321b5f56b079ad74"
+  },
+  {
+    "code": "HR",
+    "name": "Croácia",
+    "native": "Croatian",
+    "phone": "+385",
+    "capital": "Zagreb",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/hr.svg",
+    "id": "5eaca770321b5f56b079ad75"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "native": "Cuban",
+    "phone": "+53",
+    "capital": "Havana",
+    "currency": "CUC",
+    "flag": "https://flagcdn.com/cu.svg",
+    "id": "5eaca770321b5f56b079ad76"
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "native": "Dutch",
+    "phone": "+599",
+    "capital": "Willemstad",
+    "currency": "ANG",
+    "flag": "https://flagcdn.com/cw.svg",
+    "id": "5eaca770321b5f56b079ad77"
+  },
+  {
+    "code": "DK",
+    "name": "Dinamarca",
+    "native": "Danish",
+    "phone": "+45",
+    "capital": "Copenhagen",
+    "currency": "DKK",
+    "flag": "https://flagcdn.com/dk.svg",
+    "id": "5eaca770321b5f56b079ad7a"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibuti",
+    "native": "Djibouti",
+    "phone": "+253",
+    "capital": "Djibouti",
+    "currency": "DJF",
+    "flag": "https://flagcdn.com/dj.svg",
+    "id": "5eaca770321b5f56b079ad7b"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "native": "Dominican",
+    "phone": "+1",
+    "capital": "Roseau",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/dm.svg",
+    "id": "5eaca770321b5f56b079ad7c"
+  },
+  {
+    "code": "EG",
+    "name": "Egipto",
+    "native": "Egyptian",
+    "phone": "+20",
+    "capital": "Cairo",
+    "currency": "EGP",
+    "flag": "https://flagcdn.com/eg.svg",
+    "id": "5eaca770321b5f56b079ad7f"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "native": "Salvadoran",
+    "phone": "+503",
+    "capital": "San Salvador",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/sv.svg",
+    "id": "5eaca770321b5f56b079ad80"
+  },
+  {
+    "code": "AE",
+    "name": "Emirados árabes Unidos",
+    "native": "Emirati",
+    "phone": "+971",
+    "capital": "Abu Dhabi",
+    "currency": "AED",
+    "flag": "https://flagcdn.com/ae.svg",
+    "id": "5eaca771321b5f56b079ae29"
+  },
+  {
+    "code": "EC",
+    "name": "Equador",
+    "native": "Ecuadorean",
+    "phone": "+593",
+    "capital": "Quito",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/ec.svg",
+    "id": "5eaca770321b5f56b079ad7e"
+  },
+  {
+    "code": "ER",
+    "name": "Eritreia",
+    "native": "Eritrean",
+    "phone": "+291",
+    "capital": "Asmara",
+    "currency": "ERN",
+    "flag": "https://flagcdn.com/er.svg",
+    "id": "5eaca770321b5f56b079ad82"
+  },
+  {
+    "code": "SK",
+    "name": "Eslováquia",
+    "native": "Slovak",
+    "phone": "+421",
+    "capital": "Bratislava",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/sk.svg",
+    "id": "5eaca771321b5f56b079ae08"
+  },
+  {
+    "code": "SI",
+    "name": "Eslovénia",
+    "native": "Slovene",
+    "phone": "+386",
+    "capital": "Ljubljana",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/si.svg",
+    "id": "5eaca771321b5f56b079ae09"
+  },
+  {
+    "code": "ES",
+    "name": "Espanha",
+    "native": "Spanish",
+    "phone": "+34",
+    "capital": "Madrid",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/es.svg",
+    "id": "5eaca771321b5f56b079ae10"
+  },
+  {
+    "code": "US",
+    "name": "Estados Unidos",
+    "native": "American",
+    "phone": "+1",
+    "capital": "Washington, D.C.",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/us.svg",
+    "id": "5eaca771321b5f56b079ae2b"
+  },
+  {
+    "code": "EE",
+    "name": "Estónia",
+    "native": "Estonian",
+    "phone": "+372",
+    "capital": "Tallinn",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/ee.svg",
+    "id": "5eaca770321b5f56b079ad83"
+  },
+  {
+    "code": "ET",
+    "name": "Etiópia",
+    "native": "Ethiopian",
+    "phone": "+251",
+    "capital": "Addis Ababa",
+    "currency": "ETB",
+    "flag": "https://flagcdn.com/et.svg",
+    "id": "5eaca770321b5f56b079ad84"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "native": "Fijian",
+    "phone": "+679",
+    "capital": "Suva",
+    "currency": "FJD",
+    "flag": "https://flagcdn.com/fj.svg",
+    "id": "5eaca770321b5f56b079ad87"
+  },
+  {
+    "code": "PH",
+    "name": "Filipinas",
+    "native": "Filipino",
+    "phone": "+63",
+    "capital": "Manila",
+    "currency": "PHP",
+    "flag": "https://flagcdn.com/ph.svg",
+    "id": "5eaca771321b5f56b079adec"
+  },
+  {
+    "code": "FI",
+    "name": "Finlândia",
+    "native": "Finnish",
+    "phone": "+358",
+    "capital": "Helsinki",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/fi.svg",
+    "id": "5eaca770321b5f56b079ad88"
+  },
+  {
+    "code": "FR",
+    "name": "França",
+    "native": "French",
+    "phone": "+33",
+    "capital": "Paris",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/fr.svg",
+    "id": "5eaca770321b5f56b079ad89"
+  },
+  {
+    "code": "GA",
+    "name": "Gabão",
+    "native": "Gabonese",
+    "phone": "+241",
+    "capital": "Libreville",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/ga.svg",
+    "id": "5eaca770321b5f56b079ad8d"
+  },
+  {
+    "code": "GM",
+    "name": "Gâmbia",
+    "native": "Gambian",
+    "phone": "+220",
+    "capital": "Banjul",
+    "currency": "GMD",
+    "flag": "https://flagcdn.com/gm.svg",
+    "id": "5eaca770321b5f56b079ad8e"
+  },
+  {
+    "code": "GH",
+    "name": "Gana",
+    "native": "Ghanaian",
+    "phone": "+233",
+    "capital": "Accra",
+    "currency": "GHS",
+    "flag": "https://flagcdn.com/gh.svg",
+    "id": "5eaca770321b5f56b079ad91"
+  },
+  {
+    "code": "GE",
+    "name": "Geórgia",
+    "native": "Georgian",
+    "phone": "+995",
+    "capital": "Tbilisi",
+    "currency": "GEL",
+    "flag": "https://flagcdn.com/ge.svg",
+    "id": "5eaca770321b5f56b079ad8f"
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "native": "Gibraltar",
+    "phone": "+350",
+    "capital": "Gibraltar",
+    "currency": "GIP",
+    "flag": "https://flagcdn.com/gi.svg",
+    "id": "5eaca770321b5f56b079ad92"
+  },
+  {
+    "code": "GD",
+    "name": "Granada",
+    "native": "Grenadian",
+    "phone": "+1",
+    "capital": "St. George's",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/gd.svg",
+    "id": "5eaca770321b5f56b079ad95"
+  },
+  {
+    "code": "GR",
+    "name": "Grécia",
+    "native": "Greek",
+    "phone": "+30",
+    "capital": "Athens",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/gr.svg",
+    "id": "5eaca770321b5f56b079ad93"
+  },
+  {
+    "code": "GL",
+    "name": "Gronelândia",
+    "native": "Greenlandic",
+    "phone": "+299",
+    "capital": "Nuuk",
+    "currency": "DKK",
+    "flag": "https://flagcdn.com/gl.svg",
+    "id": "5eaca770321b5f56b079ad94"
+  },
+  {
+    "code": "GP",
+    "name": "Guadalupe",
+    "native": "Guadeloupian",
+    "phone": "+590",
+    "capital": "Basse-Terre",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/gp.svg",
+    "id": "5eaca770321b5f56b079ad96"
+  },
+  {
+    "code": "GU",
+    "name": "Guame",
+    "native": "Guamanian",
+    "phone": "+1",
+    "capital": "Hagåtña",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/gu.svg",
+    "id": "5eaca770321b5f56b079ad97"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "native": "Guatemalan",
+    "phone": "+502",
+    "capital": "Guatemala City",
+    "currency": "GTQ",
+    "flag": "https://flagcdn.com/gt.svg",
+    "id": "5eaca770321b5f56b079ad98"
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "native": "Channel Islander",
+    "phone": "+44",
+    "capital": "St. Peter Port",
+    "currency": "GBP",
+    "flag": "https://flagcdn.com/gg.svg",
+    "id": "5eaca770321b5f56b079ad99"
+  },
+  {
+    "code": "GY",
+    "name": "Guiana",
+    "native": "Guyanese",
+    "phone": "+592",
+    "capital": "Georgetown",
+    "currency": "GYD",
+    "flag": "https://flagcdn.com/gy.svg",
+    "id": "5eaca770321b5f56b079ad9c"
+  },
+  {
+    "code": "GF",
+    "name": "Guiana Francesa",
+    "native": "",
+    "phone": "+594",
+    "capital": "Cayenne",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/gf.svg",
+    "id": "5eaca770321b5f56b079ad8a"
+  },
+  {
+    "code": "GN",
+    "name": "Guiné",
+    "native": "Guinean",
+    "phone": "+224",
+    "capital": "Conakry",
+    "currency": "GNF",
+    "flag": "https://flagcdn.com/gn.svg",
+    "id": "5eaca770321b5f56b079ad9a"
+  },
+  {
+    "code": "GQ",
+    "name": "Guiné Equatorial",
+    "native": "Equatorial Guinean",
+    "phone": "+240",
+    "capital": "Malabo",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/gq.svg",
+    "id": "5eaca770321b5f56b079ad81"
+  },
+  {
+    "code": "GW",
+    "name": "Guiné-Bissau",
+    "native": "Guinea-Bissauan",
+    "phone": "+245",
+    "capital": "Bissau",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/gw.svg",
+    "id": "5eaca770321b5f56b079ad9b"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "native": "Haitian",
+    "phone": "+509",
+    "capital": "Port-au-Prince",
+    "currency": "HTG",
+    "flag": "https://flagcdn.com/ht.svg",
+    "id": "5eaca770321b5f56b079ad9d"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "native": "Honduran",
+    "phone": "+504",
+    "capital": "Tegucigalpa",
+    "currency": "HNL",
+    "flag": "https://flagcdn.com/hn.svg",
+    "id": "5eaca771321b5f56b079ada0"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "native": "Chinese",
+    "phone": "+852",
+    "capital": "City of Victoria",
+    "currency": "HKD",
+    "flag": "https://flagcdn.com/hk.svg",
+    "id": "5eaca771321b5f56b079ada1"
+  },
+  {
+    "code": "HU",
+    "name": "Hungria",
+    "native": "Hungarian",
+    "phone": "+36",
+    "capital": "Budapest",
+    "currency": "HUF",
+    "flag": "https://flagcdn.com/hu.svg",
+    "id": "5eaca771321b5f56b079ada2"
+  },
+  {
+    "code": "YE",
+    "name": "Iémen",
+    "native": "Yemeni",
+    "phone": "+967",
+    "capital": "Sana'a",
+    "currency": "YER",
+    "flag": "https://flagcdn.com/ye.svg",
+    "id": "5eaca771321b5f56b079ae33"
+  },
+  {
+    "code": "BV",
+    "name": "Ilha Bouvet",
+    "native": "",
+    "phone": "+47",
+    "capital": "",
+    "currency": "NOK",
+    "flag": "https://flagcdn.com/bv.svg",
+    "id": "5eaca770321b5f56b079ad5a"
+  },
+  {
+    "code": "IM",
+    "name": "Ilha de Man",
+    "native": "Manx",
+    "phone": "+44",
+    "capital": "Douglas",
+    "currency": "GBP",
+    "flag": "https://flagcdn.com/im.svg",
+    "id": "5eaca771321b5f56b079adaa"
+  },
+  {
+    "code": "CX",
+    "name": "Ilha do Natal",
+    "native": "Christmas Island",
+    "phone": "+61",
+    "capital": "Flying Fish Cove",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/cx.svg",
+    "id": "5eaca770321b5f56b079ad6d"
+  },
+  {
+    "code": "HM",
+    "name": "Ilha Heard e Ilhas McDonald",
+    "native": "Heard and McDonald Islander",
+    "phone": "+672",
+    "capital": "",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/hm.svg",
+    "id": "5eaca770321b5f56b079ad9e"
+  },
+  {
+    "code": "NF",
+    "name": "Ilha Norfolk",
+    "native": "Norfolk Islander",
+    "phone": "+672",
+    "capital": "Kingston",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/nf.svg",
+    "id": "5eaca771321b5f56b079ade0"
+  },
+  {
+    "code": "MF",
+    "name": "Ilha São Martinho",
+    "native": "Saint Martin Islander",
+    "phone": "+590",
+    "capital": "Marigot",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/mf.svg",
+    "id": "5eaca771321b5f56b079adfb"
+  },
+  {
+    "code": "KY",
+    "name": "Ilhas Caimão",
+    "native": "Caymanian",
+    "phone": "+1",
+    "capital": "George Town",
+    "currency": "KYD",
+    "flag": "https://flagcdn.com/ky.svg",
+    "id": "5eaca770321b5f56b079ad68"
+  },
+  {
+    "code": "CK",
+    "name": "Ilhas Cook",
+    "native": "Cook Islander",
+    "phone": "+682",
+    "capital": "Avarua",
+    "currency": "NZD",
+    "flag": "https://flagcdn.com/ck.svg",
+    "id": "5eaca770321b5f56b079ad73"
+  },
+  {
+    "code": "AX",
+    "name": "Ilhas de Aland",
+    "native": "Ålandish",
+    "phone": "+358",
+    "capital": "Mariehamn",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/ax.svg",
+    "id": "5eaca770321b5f56b079ad3d"
+  },
+  {
+    "code": "CC",
+    "name": "Ilhas dos Cocos",
+    "native": "Cocos Islander",
+    "phone": "+61",
+    "capital": "West Island",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/cc.svg",
+    "id": "5eaca770321b5f56b079ad6e"
+  },
+  {
+    "code": "FK",
+    "name": "Ilhas Falkland",
+    "native": "Falkland Islander",
+    "phone": "+500",
+    "capital": "Stanley",
+    "currency": "FKP",
+    "flag": "https://flagcdn.com/fk.svg",
+    "id": "5eaca770321b5f56b079ad85"
+  },
+  {
+    "code": "FO",
+    "name": "Ilhas Faroé",
+    "native": "Faroese",
+    "phone": "+298",
+    "capital": "Tórshavn",
+    "currency": "DKK",
+    "flag": "https://flagcdn.com/fo.svg",
+    "id": "5eaca770321b5f56b079ad86"
+  },
+  {
+    "code": "GS",
+    "name": "Ilhas Geórgia do Sul e Sanduíche do Sul",
+    "native": "South Georgia and the South Sandwich Islander",
+    "phone": "+500",
+    "capital": "King Edward Point",
+    "currency": "FKP",
+    "flag": "https://flagcdn.com/gs.svg",
+    "id": "5eaca771321b5f56b079ae0d"
+  },
+  {
+    "code": "MP",
+    "name": "Ilhas Marianas",
+    "native": "American",
+    "phone": "+1",
+    "capital": "Saipan",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/mp.svg",
+    "id": "5eaca771321b5f56b079ade2"
+  },
+  {
+    "code": "MH",
+    "name": "Ilhas Marshall",
+    "native": "Marshallese",
+    "phone": "+692",
+    "capital": "Majuro",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/mh.svg",
+    "id": "5eaca771321b5f56b079adc7"
+  },
+  {
+    "code": "UM",
+    "name": "Ilhas Menores Distantes dos Estados Unidos",
+    "native": "American",
+    "phone": "+246",
+    "capital": "",
+    "currency": "GBP",
+    "flag": "https://flagcdn.com/um.svg",
+    "id": "5eaca770321b5f56b079ad5d"
+  },
+  {
+    "code": "PN",
+    "name": "Ilhas Picárnia",
+    "native": "Pitcairn Islander",
+    "phone": "+64",
+    "capital": "Adamstown",
+    "currency": "NZD",
+    "flag": "https://flagcdn.com/pn.svg",
+    "id": "5eaca771321b5f56b079aded"
+  },
+  {
+    "code": "SB",
+    "name": "Ilhas Salomão",
+    "native": "Solomon Islander",
+    "phone": "+677",
+    "capital": "Honiara",
+    "currency": "SBD",
+    "flag": "https://flagcdn.com/sb.svg",
+    "id": "5eaca771321b5f56b079ae0a"
+  },
+  {
+    "code": "TC",
+    "name": "Ilhas Turcas e Caicos",
+    "native": "Turks and Caicos Islander",
+    "phone": "+1",
+    "capital": "Cockburn Town",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/tc.svg",
+    "id": "5eaca771321b5f56b079ae25"
+  },
+  {
+    "code": "VI",
+    "name": "Ilhas Virgens Americanas",
+    "native": "Virgin Islander",
+    "phone": "+1 340",
+    "capital": "Charlotte Amalie",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/vi.svg",
+    "id": "5eaca770321b5f56b079ad5f"
+  },
+  {
+    "code": "VG",
+    "name": "Ilhas Virgens Britânicas",
+    "native": "Virgin Islander",
+    "phone": "+1",
+    "capital": "Road Town",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/vg.svg",
+    "id": "5eaca770321b5f56b079ad5e"
+  },
+  {
+    "code": "IN",
+    "name": "Índia",
+    "native": "Indian",
+    "phone": "+91",
+    "capital": "New Delhi",
+    "currency": "INR",
+    "flag": "https://flagcdn.com/in.svg",
+    "id": "5eaca771321b5f56b079ada4"
+  },
+  {
+    "code": "ID",
+    "name": "Indonésia",
+    "native": "Indonesian",
+    "phone": "+62",
+    "capital": "Jakarta",
+    "currency": "IDR",
+    "flag": "https://flagcdn.com/id.svg",
+    "id": "5eaca771321b5f56b079ada5"
+  },
+  {
+    "code": "IR",
+    "name": "Irão",
+    "native": "Iranian",
+    "phone": "+98",
+    "capital": "Tehran",
+    "currency": "IRR",
+    "flag": "https://flagcdn.com/ir.svg",
+    "id": "5eaca771321b5f56b079ada7"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraque",
+    "native": "Iraqi",
+    "phone": "+964",
+    "capital": "Baghdad",
+    "currency": "IQD",
+    "flag": "https://flagcdn.com/iq.svg",
+    "id": "5eaca771321b5f56b079ada8"
+  },
+  {
+    "code": "IE",
+    "name": "Irlanda",
+    "native": "Irish",
+    "phone": "+353",
+    "capital": "Dublin",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/ie.svg",
+    "id": "5eaca771321b5f56b079ada9"
+  },
+  {
+    "code": "IS",
+    "name": "Islândia",
+    "native": "Icelander",
+    "phone": "+354",
+    "capital": "Reykjavík",
+    "currency": "ISK",
+    "flag": "https://flagcdn.com/is.svg",
+    "id": "5eaca771321b5f56b079ada3"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "native": "Israeli",
+    "phone": "+972",
+    "capital": "Jerusalem",
+    "currency": "ILS",
+    "flag": "https://flagcdn.com/il.svg",
+    "id": "5eaca771321b5f56b079adab"
+  },
+  {
+    "code": "IT",
+    "name": "Itália",
+    "native": "Italian",
+    "phone": "+39",
+    "capital": "Rome",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/it.svg",
+    "id": "5eaca771321b5f56b079adac"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "native": "Jamaican",
+    "phone": "+1",
+    "capital": "Kingston",
+    "currency": "JMD",
+    "flag": "https://flagcdn.com/jm.svg",
+    "id": "5eaca771321b5f56b079adad"
+  },
+  {
+    "code": "JP",
+    "name": "Japão",
+    "native": "Japanese",
+    "phone": "+81",
+    "capital": "Tokyo",
+    "currency": "JPY",
+    "flag": "https://flagcdn.com/jp.svg",
+    "id": "5eaca771321b5f56b079adae"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "native": "Channel Islander",
+    "phone": "+44",
+    "capital": "Saint Helier",
+    "currency": "GBP",
+    "flag": "https://flagcdn.com/je.svg",
+    "id": "5eaca771321b5f56b079adaf"
+  },
+  {
+    "code": "JO",
+    "name": "Jordânia",
+    "native": "Jordanian",
+    "phone": "+962",
+    "capital": "Amman",
+    "currency": "JOD",
+    "flag": "https://flagcdn.com/jo.svg",
+    "id": "5eaca771321b5f56b079adb0"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "native": "Kosovar",
+    "phone": "+383",
+    "capital": "Pristina",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/xk.svg",
+    "id": "5eaca771321b5f56b079adf2"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "native": "Kuwaiti",
+    "phone": "+965",
+    "capital": "Kuwait City",
+    "currency": "KWD",
+    "flag": "https://flagcdn.com/kw.svg",
+    "id": "5eaca771321b5f56b079adb4"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "native": "Laotian",
+    "phone": "+856",
+    "capital": "Vientiane",
+    "currency": "LAK",
+    "flag": "https://flagcdn.com/la.svg",
+    "id": "5eaca771321b5f56b079adb6"
+  },
+  {
+    "code": "LS",
+    "name": "Lesoto",
+    "native": "Mosotho",
+    "phone": "+266",
+    "capital": "Maseru",
+    "currency": "LSL",
+    "flag": "https://flagcdn.com/ls.svg",
+    "id": "5eaca771321b5f56b079adb9"
+  },
+  {
+    "code": "LV",
+    "name": "Letónia",
+    "native": "Latvian",
+    "phone": "+371",
+    "capital": "Riga",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/lv.svg",
+    "id": "5eaca771321b5f56b079adb7"
+  },
+  {
+    "code": "LB",
+    "name": "Líbano",
+    "native": "Lebanese",
+    "phone": "+961",
+    "capital": "Beirut",
+    "currency": "LBP",
+    "flag": "https://flagcdn.com/lb.svg",
+    "id": "5eaca771321b5f56b079adb8"
+  },
+  {
+    "code": "LR",
+    "name": "Libéria",
+    "native": "Liberian",
+    "phone": "+231",
+    "capital": "Monrovia",
+    "currency": "LRD",
+    "flag": "https://flagcdn.com/lr.svg",
+    "id": "5eaca771321b5f56b079adba"
+  },
+  {
+    "code": "LY",
+    "name": "Líbia",
+    "native": "Libyan",
+    "phone": "+218",
+    "capital": "Tripoli",
+    "currency": "LYD",
+    "flag": "https://flagcdn.com/ly.svg",
+    "id": "5eaca771321b5f56b079adbb"
+  },
+  {
+    "code": "LI",
+    "name": "Listenstaine",
+    "native": "Liechtensteiner",
+    "phone": "+423",
+    "capital": "Vaduz",
+    "currency": "CHF",
+    "flag": "https://flagcdn.com/li.svg",
+    "id": "5eaca771321b5f56b079adbc"
+  },
+  {
+    "code": "LT",
+    "name": "Lituânia",
+    "native": "Lithuanian",
+    "phone": "+370",
+    "capital": "Vilnius",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/lt.svg",
+    "id": "5eaca771321b5f56b079adbd"
+  },
+  {
+    "code": "LU",
+    "name": "Luxemburgo",
+    "native": "Luxembourger",
+    "phone": "+352",
+    "capital": "Luxembourg",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/lu.svg",
+    "id": "5eaca771321b5f56b079adbe"
+  },
+  {
+    "code": "MO",
+    "name": "Macau",
+    "native": "Chinese",
+    "phone": "+853",
+    "capital": "",
+    "currency": "MOP",
+    "flag": "https://flagcdn.com/mo.svg",
+    "id": "5eaca771321b5f56b079adbf"
+  },
+  {
+    "code": "MK",
+    "name": "Macedónia",
+    "native": "Macedonian",
+    "phone": "+389",
+    "capital": "Skopje",
+    "currency": "MKD",
+    "flag": "https://flagcdn.com/mk.svg",
+    "id": "5eaca771321b5f56b079adc0"
+  },
+  {
+    "code": "MG",
+    "name": "Madagáscar",
+    "native": "Malagasy",
+    "phone": "+261",
+    "capital": "Antananarivo",
+    "currency": "MGA",
+    "flag": "https://flagcdn.com/mg.svg",
+    "id": "5eaca771321b5f56b079adc1"
+  },
+  {
+    "code": "MY",
+    "name": "Malásia",
+    "native": "Malaysian",
+    "phone": "+60",
+    "capital": "Kuala Lumpur",
+    "currency": "MYR",
+    "flag": "https://flagcdn.com/my.svg",
+    "id": "5eaca771321b5f56b079adc3"
+  },
+  {
+    "code": "MW",
+    "name": "Malávi",
+    "native": "Malawian",
+    "phone": "+265",
+    "capital": "Lilongwe",
+    "currency": "MWK",
+    "flag": "https://flagcdn.com/mw.svg",
+    "id": "5eaca771321b5f56b079adc2"
+  },
+  {
+    "code": "MV",
+    "name": "Maldivas",
+    "native": "Maldivan",
+    "phone": "+960",
+    "capital": "Malé",
+    "currency": "MVR",
+    "flag": "https://flagcdn.com/mv.svg",
+    "id": "5eaca771321b5f56b079adc4"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "native": "Malian",
+    "phone": "+223",
+    "capital": "Bamako",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/ml.svg",
+    "id": "5eaca771321b5f56b079adc5"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "native": "Maltese",
+    "phone": "+356",
+    "capital": "Valletta",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/mt.svg",
+    "id": "5eaca771321b5f56b079adc6"
+  },
+  {
+    "code": "MA",
+    "name": "Marrocos",
+    "native": "Moroccan",
+    "phone": "+212",
+    "capital": "Rabat",
+    "currency": "MAD",
+    "flag": "https://flagcdn.com/ma.svg",
+    "id": "5eaca771321b5f56b079add3"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinica",
+    "native": "French",
+    "phone": "+596",
+    "capital": "Fort-de-France",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/mq.svg",
+    "id": "5eaca771321b5f56b079adc8"
+  },
+  {
+    "code": "MU",
+    "name": "Maurícia",
+    "native": "Mauritian",
+    "phone": "+230",
+    "capital": "Port Louis",
+    "currency": "MUR",
+    "flag": "https://flagcdn.com/mu.svg",
+    "id": "5eaca771321b5f56b079adca"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritânia",
+    "native": "Mauritanian",
+    "phone": "+222",
+    "capital": "Nouakchott",
+    "currency": "MRO",
+    "flag": "https://flagcdn.com/mr.svg",
+    "id": "5eaca771321b5f56b079adc9"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "native": "French",
+    "phone": "+262",
+    "capital": "Mamoudzou",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/yt.svg",
+    "id": "5eaca771321b5f56b079adcb"
+  },
+  {
+    "code": "MX",
+    "name": "México",
+    "native": "Mexican",
+    "phone": "+52",
+    "capital": "Mexico City",
+    "currency": "MXN",
+    "flag": "https://flagcdn.com/mx.svg",
+    "id": "5eaca771321b5f56b079adcc"
+  },
+  {
+    "code": "FM",
+    "name": "Micronésia",
+    "native": "Micronesian",
+    "phone": "+691",
+    "capital": "Palikir",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/fm.svg",
+    "id": "5eaca771321b5f56b079adcd"
+  },
+  {
+    "code": "MZ",
+    "name": "Moçambique",
+    "native": "Mozambican",
+    "phone": "+258",
+    "capital": "Maputo",
+    "currency": "MZN",
+    "flag": "https://flagcdn.com/mz.svg",
+    "id": "5eaca771321b5f56b079add4"
+  },
+  {
+    "code": "MD",
+    "name": "Moldávia",
+    "native": "Moldovan",
+    "phone": "+373",
+    "capital": "Chișinău",
+    "currency": "MDL",
+    "flag": "https://flagcdn.com/md.svg",
+    "id": "5eaca771321b5f56b079adce"
+  },
+  {
+    "code": "MC",
+    "name": "Mónaco",
+    "native": "Monegasque",
+    "phone": "+377",
+    "capital": "Monaco",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/mc.svg",
+    "id": "5eaca771321b5f56b079adcf"
+  },
+  {
+    "code": "MN",
+    "name": "Mongólia",
+    "native": "Mongolian",
+    "phone": "+976",
+    "capital": "Ulan Bator",
+    "currency": "MNT",
+    "flag": "https://flagcdn.com/mn.svg",
+    "id": "5eaca771321b5f56b079add0"
+  },
+  {
+    "code": "MS",
+    "name": "Monserrate",
+    "native": "Montserratian",
+    "phone": "+1",
+    "capital": "Plymouth",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/ms.svg",
+    "id": "5eaca771321b5f56b079add2"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "native": "Montenegrin",
+    "phone": "+382",
+    "capital": "Podgorica",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/me.svg",
+    "id": "5eaca771321b5f56b079add1"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "native": "Burmese",
+    "phone": "+95",
+    "capital": "Naypyidaw",
+    "currency": "MMK",
+    "flag": "https://flagcdn.com/mm.svg",
+    "id": "5eaca771321b5f56b079add5"
+  },
+  {
+    "code": "NA",
+    "name": "Namíbia",
+    "native": "Namibian",
+    "phone": "+264",
+    "capital": "Windhoek",
+    "currency": "NAD",
+    "flag": "https://flagcdn.com/na.svg",
+    "id": "5eaca771321b5f56b079add6"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "native": "Nauruan",
+    "phone": "+674",
+    "capital": "Yaren",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/nr.svg",
+    "id": "5eaca771321b5f56b079add7"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "native": "Nepalese",
+    "phone": "+977",
+    "capital": "Kathmandu",
+    "currency": "NPR",
+    "flag": "https://flagcdn.com/np.svg",
+    "id": "5eaca771321b5f56b079add8"
+  },
+  {
+    "code": "NI",
+    "name": "Nicarágua",
+    "native": "Nicaraguan",
+    "phone": "+505",
+    "capital": "Managua",
+    "currency": "NIO",
+    "flag": "https://flagcdn.com/ni.svg",
+    "id": "5eaca771321b5f56b079addc"
+  },
+  {
+    "code": "NE",
+    "name": "Níger",
+    "native": "Nigerien",
+    "phone": "+227",
+    "capital": "Niamey",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/ne.svg",
+    "id": "5eaca771321b5f56b079addd"
+  },
+  {
+    "code": "NG",
+    "name": "Nigéria",
+    "native": "Nigerian",
+    "phone": "+234",
+    "capital": "Abuja",
+    "currency": "NGN",
+    "flag": "https://flagcdn.com/ng.svg",
+    "id": "5eaca771321b5f56b079adde"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "native": "Niuean",
+    "phone": "+683",
+    "capital": "Alofi",
+    "currency": "NZD",
+    "flag": "https://flagcdn.com/nu.svg",
+    "id": "5eaca771321b5f56b079addf"
+  },
+  {
+    "code": "NO",
+    "name": "Noruega",
+    "native": "Norwegian",
+    "phone": "+47",
+    "capital": "Oslo",
+    "currency": "NOK",
+    "flag": "https://flagcdn.com/no.svg",
+    "id": "5eaca771321b5f56b079ade3"
+  },
+  {
+    "code": "NC",
+    "name": "Nova Caledónia",
+    "native": "New Caledonian",
+    "phone": "+687",
+    "capital": "Nouméa",
+    "currency": "XPF",
+    "flag": "https://flagcdn.com/nc.svg",
+    "id": "5eaca771321b5f56b079adda"
+  },
+  {
+    "code": "NZ",
+    "name": "Nova Zelândia",
+    "native": "New Zealander",
+    "phone": "+64",
+    "capital": "Wellington",
+    "currency": "NZD",
+    "flag": "https://flagcdn.com/nz.svg",
+    "id": "5eaca771321b5f56b079addb"
+  },
+  {
+    "code": "OM",
+    "name": "Omã",
+    "native": "Omani",
+    "phone": "+968",
+    "capital": "Muscat",
+    "currency": "OMR",
+    "flag": "https://flagcdn.com/om.svg",
+    "id": "5eaca771321b5f56b079ade4"
+  },
+  {
+    "code": "NL",
+    "name": "Países Baixos",
+    "native": "Dutch",
+    "phone": "+31",
+    "capital": "Amsterdam",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/nl.svg",
+    "id": "5eaca771321b5f56b079add9"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "native": "Palauan",
+    "phone": "+680",
+    "capital": "Ngerulmud",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/pw.svg",
+    "id": "5eaca771321b5f56b079ade6"
+  },
+  {
+    "code": "PS",
+    "name": "Palestina",
+    "native": "Palestinian",
+    "phone": "+970",
+    "capital": "Ramallah",
+    "currency": "EGP",
+    "flag": "https://flagcdn.com/ps.svg",
+    "id": "5eaca771321b5f56b079ade7"
+  },
+  {
+    "code": "PA",
+    "name": "Panamá",
+    "native": "Panamanian",
+    "phone": "+507",
+    "capital": "Panama City",
+    "currency": "PAB",
+    "flag": "https://flagcdn.com/pa.svg",
+    "id": "5eaca771321b5f56b079ade8"
+  },
+  {
+    "code": "PG",
+    "name": "Papua Nova Guiné",
+    "native": "Papua New Guinean",
+    "phone": "+675",
+    "capital": "Port Moresby",
+    "currency": "PGK",
+    "flag": "https://flagcdn.com/pg.svg",
+    "id": "5eaca771321b5f56b079ade9"
+  },
+  {
+    "code": "PK",
+    "name": "Paquistão",
+    "native": "Pakistani",
+    "phone": "+92",
+    "capital": "Islamabad",
+    "currency": "PKR",
+    "flag": "https://flagcdn.com/pk.svg",
+    "id": "5eaca771321b5f56b079ade5"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguai",
+    "native": "Paraguayan",
+    "phone": "+595",
+    "capital": "Asunción",
+    "currency": "PYG",
+    "flag": "https://flagcdn.com/py.svg",
+    "id": "5eaca771321b5f56b079adea"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "native": "Peruvian",
+    "phone": "+51",
+    "capital": "Lima",
+    "currency": "PEN",
+    "flag": "https://flagcdn.com/pe.svg",
+    "id": "5eaca771321b5f56b079adeb"
+  },
+  {
+    "code": "PF",
+    "name": "Polinésia Francesa",
+    "native": "French Polynesian",
+    "phone": "+689",
+    "capital": "Papeetē",
+    "currency": "XPF",
+    "flag": "https://flagcdn.com/pf.svg",
+    "id": "5eaca770321b5f56b079ad8b"
+  },
+  {
+    "code": "PL",
+    "name": "Polónia",
+    "native": "Polish",
+    "phone": "+48",
+    "capital": "Warsaw",
+    "currency": "PLN",
+    "flag": "https://flagcdn.com/pl.svg",
+    "id": "5eaca771321b5f56b079adee"
+  },
+  {
+    "code": "PR",
+    "name": "Porto Rico",
+    "native": "Puerto Rican",
+    "phone": "+1",
+    "capital": "San Juan",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/pr.svg",
+    "id": "5eaca771321b5f56b079adf0"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "native": "Portuguese",
+    "phone": "+351",
+    "capital": "Lisbon",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/pt.svg",
+    "id": "5eaca771321b5f56b079adef"
+  },
+  {
+    "code": "KE",
+    "name": "Quénia",
+    "native": "Kenyan",
+    "phone": "+254",
+    "capital": "Nairobi",
+    "currency": "KES",
+    "flag": "https://flagcdn.com/ke.svg",
+    "id": "5eaca771321b5f56b079adb2"
+  },
+  {
+    "code": "KG",
+    "name": "Quirguizistão",
+    "native": "Kirghiz",
+    "phone": "+996",
+    "capital": "Bishkek",
+    "currency": "KGS",
+    "flag": "https://flagcdn.com/kg.svg",
+    "id": "5eaca771321b5f56b079adb5"
+  },
+  {
+    "code": "KI",
+    "name": "Quiribáti",
+    "native": "I-Kiribati",
+    "phone": "+686",
+    "capital": "South Tarawa",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/ki.svg",
+    "id": "5eaca771321b5f56b079adb3"
+  },
+  {
+    "code": "CD",
+    "name": "RD Congo",
+    "native": "Congolese",
+    "phone": "+243",
+    "capital": "Kinshasa",
+    "currency": "CDF",
+    "flag": "https://flagcdn.com/cd.svg",
+    "id": "5eaca770321b5f56b079ad72"
+  },
+  {
+    "code": "GB",
+    "name": "Reino Unido",
+    "native": "British",
+    "phone": "+44",
+    "capital": "London",
+    "currency": "GBP",
+    "flag": "https://flagcdn.com/gb.svg",
+    "id": "5eaca771321b5f56b079ae2a"
+  },
+  {
+    "code": "CF",
+    "name": "República Centro-Africana",
+    "native": "Central African",
+    "phone": "+236",
+    "capital": "Bangui",
+    "currency": "XAF",
+    "flag": "https://flagcdn.com/cf.svg",
+    "id": "5eaca770321b5f56b079ad69"
+  },
+  {
+    "code": "CZ",
+    "name": "República Checa",
+    "native": "Czech",
+    "phone": "+420",
+    "capital": "Prague",
+    "currency": "CZK",
+    "flag": "https://flagcdn.com/cz.svg",
+    "id": "5eaca770321b5f56b079ad79"
+  },
+  {
+    "code": "DO",
+    "name": "República Dominicana",
+    "native": "Dominican",
+    "phone": "+1",
+    "capital": "Santo Domingo",
+    "currency": "DOP",
+    "flag": "https://flagcdn.com/do.svg",
+    "id": "5eaca770321b5f56b079ad7d"
+  },
+  {
+    "code": "ZA",
+    "name": "República Sul-Africana",
+    "native": "South African",
+    "phone": "+27",
+    "capital": "Pretoria",
+    "currency": "ZAR",
+    "flag": "https://flagcdn.com/za.svg",
+    "id": "5eaca771321b5f56b079ae0c"
+  },
+  {
+    "code": "RE",
+    "name": "Reunião",
+    "native": "French",
+    "phone": "+262",
+    "capital": "Saint-Denis",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/re.svg",
+    "id": "5eaca771321b5f56b079adf3"
+  },
+  {
+    "code": "RO",
+    "name": "Roménia",
+    "native": "Romanian",
+    "phone": "+40",
+    "capital": "Bucharest",
+    "currency": "RON",
+    "flag": "https://flagcdn.com/ro.svg",
+    "id": "5eaca771321b5f56b079adf4"
+  },
+  {
+    "code": "RW",
+    "name": "Ruanda",
+    "native": "Rwandan",
+    "phone": "+250",
+    "capital": "Kigali",
+    "currency": "RWF",
+    "flag": "https://flagcdn.com/rw.svg",
+    "id": "5eaca771321b5f56b079adf6"
+  },
+  {
+    "code": "RU",
+    "name": "Rússia",
+    "native": "Russian",
+    "phone": "+7",
+    "capital": "Moscow",
+    "currency": "RUB",
+    "flag": "https://flagcdn.com/ru.svg",
+    "id": "5eaca771321b5f56b079adf5"
+  },
+  {
+    "code": "EH",
+    "name": "Saara Ocidental",
+    "native": "Sahrawi",
+    "phone": "+212",
+    "capital": "El Aaiún",
+    "currency": "MAD",
+    "flag": "https://flagcdn.com/eh.svg",
+    "id": "5eaca771321b5f56b079ae32"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "native": "Samoan",
+    "phone": "+685",
+    "capital": "Apia",
+    "currency": "WST",
+    "flag": "https://flagcdn.com/ws.svg",
+    "id": "5eaca771321b5f56b079adfe"
+  },
+  {
+    "code": "AS",
+    "name": "Samoa Americana",
+    "native": "American Samoan",
+    "phone": "+1",
+    "capital": "Pago Pago",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/as.svg",
+    "id": "5eaca770321b5f56b079ad40"
+  },
+  {
+    "code": "SH",
+    "name": "Santa Helena",
+    "native": "Saint Helenian",
+    "phone": "+290",
+    "capital": "Jamestown",
+    "currency": "SHP",
+    "flag": "https://flagcdn.com/sh.svg",
+    "id": "5eaca771321b5f56b079adf8"
+  },
+  {
+    "code": "LC",
+    "name": "Santa Lúcia",
+    "native": "Saint Lucian",
+    "phone": "+1",
+    "capital": "Castries",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/lc.svg",
+    "id": "5eaca771321b5f56b079adfa"
+  },
+  {
+    "code": "BL",
+    "name": "São Bartolomeu",
+    "native": "Saint Barthélemy Islander",
+    "phone": "+590",
+    "capital": "Gustavia",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/bl.svg",
+    "id": "5eaca771321b5f56b079adf7"
+  },
+  {
+    "code": "KN",
+    "name": "São Cristóvão e Neves",
+    "native": "Kittian and Nevisian",
+    "phone": "+1",
+    "capital": "Basseterre",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/kn.svg",
+    "id": "5eaca771321b5f56b079adf9"
+  },
+  {
+    "code": "SM",
+    "name": "São Marinho",
+    "native": "Sammarinese",
+    "phone": "+378",
+    "capital": "City of San Marino",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/sm.svg",
+    "id": "5eaca771321b5f56b079adff"
+  },
+  {
+    "code": "SX",
+    "name": "São Martinho",
+    "native": "Dutch",
+    "phone": "+1",
+    "capital": "Philipsburg",
+    "currency": "ANG",
+    "flag": "https://flagcdn.com/sx.svg",
+    "id": "5eaca771321b5f56b079ae07"
+  },
+  {
+    "code": "PM",
+    "name": "São Pedro e Miquelon",
+    "native": "French",
+    "phone": "+508",
+    "capital": "Saint-Pierre",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/pm.svg",
+    "id": "5eaca771321b5f56b079adfc"
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé e Príncipe",
+    "native": "Sao Tomean",
+    "phone": "+239",
+    "capital": "São Tomé",
+    "currency": "STD",
+    "flag": "https://flagcdn.com/st.svg",
+    "id": "5eaca771321b5f56b079ae00"
+  },
+  {
+    "code": "VC",
+    "name": "São Vicente e Granadinas",
+    "native": "Saint Vincentian",
+    "phone": "+1",
+    "capital": "Kingstown",
+    "currency": "XCD",
+    "flag": "https://flagcdn.com/vc.svg",
+    "id": "5eaca771321b5f56b079adfd"
+  },
+  {
+    "code": "SC",
+    "name": "Seicheles",
+    "native": "Seychellois",
+    "phone": "+248",
+    "capital": "Victoria",
+    "currency": "SCR",
+    "flag": "https://flagcdn.com/sc.svg",
+    "id": "5eaca771321b5f56b079ae04"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "native": "Senegalese",
+    "phone": "+221",
+    "capital": "Dakar",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/sn.svg",
+    "id": "5eaca771321b5f56b079ae02"
+  },
+  {
+    "code": "SL",
+    "name": "Serra Leoa",
+    "native": "Sierra Leonean",
+    "phone": "+232",
+    "capital": "Freetown",
+    "currency": "SLL",
+    "flag": "https://flagcdn.com/sl.svg",
+    "id": "5eaca771321b5f56b079ae05"
+  },
+  {
+    "code": "RS",
+    "name": "Sérvia",
+    "native": "Serbian",
+    "phone": "+381",
+    "capital": "Belgrade",
+    "currency": "RSD",
+    "flag": "https://flagcdn.com/rs.svg",
+    "id": "5eaca771321b5f56b079ae03"
+  },
+  {
+    "code": "SG",
+    "name": "Singapura",
+    "native": "Singaporean",
+    "phone": "+65",
+    "capital": "Singapore",
+    "currency": "SGD",
+    "flag": "https://flagcdn.com/sg.svg",
+    "id": "5eaca771321b5f56b079ae06"
+  },
+  {
+    "code": "SY",
+    "name": "Síria",
+    "native": "Syrian",
+    "phone": "+963",
+    "capital": "Damascus",
+    "currency": "SYP",
+    "flag": "https://flagcdn.com/sy.svg",
+    "id": "5eaca771321b5f56b079ae18"
+  },
+  {
+    "code": "SO",
+    "name": "Somália",
+    "native": "Somali",
+    "phone": "+252",
+    "capital": "Mogadishu",
+    "currency": "SOS",
+    "flag": "https://flagcdn.com/so.svg",
+    "id": "5eaca771321b5f56b079ae0b"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "native": "Sri Lankan",
+    "phone": "+94",
+    "capital": "Colombo",
+    "currency": "LKR",
+    "flag": "https://flagcdn.com/lk.svg",
+    "id": "5eaca771321b5f56b079ae11"
+  },
+  {
+    "code": "SZ",
+    "name": "Suazilândia",
+    "native": "Swazi",
+    "phone": "+268",
+    "capital": "Lobamba",
+    "currency": "SZL",
+    "flag": "https://flagcdn.com/sz.svg",
+    "id": "5eaca771321b5f56b079ae15"
+  },
+  {
+    "code": "SD",
+    "name": "Sudão",
+    "native": "Sudanese",
+    "phone": "+249",
+    "capital": "Khartoum",
+    "currency": "SDG",
+    "flag": "https://flagcdn.com/sd.svg",
+    "id": "5eaca771321b5f56b079ae12"
+  },
+  {
+    "code": "SS",
+    "name": "Sudão do Sul",
+    "native": "South Sudanese",
+    "phone": "+211",
+    "capital": "Juba",
+    "currency": "SSP",
+    "flag": "https://flagcdn.com/ss.svg",
+    "id": "5eaca771321b5f56b079ae0f"
+  },
+  {
+    "code": "SE",
+    "name": "Suécia",
+    "native": "Swedish",
+    "phone": "+46",
+    "capital": "Stockholm",
+    "currency": "SEK",
+    "flag": "https://flagcdn.com/se.svg",
+    "id": "5eaca771321b5f56b079ae16"
+  },
+  {
+    "code": "CH",
+    "name": "Suíça",
+    "native": "Swiss",
+    "phone": "+41",
+    "capital": "Bern",
+    "currency": "CHF",
+    "flag": "https://flagcdn.com/ch.svg",
+    "id": "5eaca771321b5f56b079ae17"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "native": "Surinamer",
+    "phone": "+597",
+    "capital": "Paramaribo",
+    "currency": "SRD",
+    "flag": "https://flagcdn.com/sr.svg",
+    "id": "5eaca771321b5f56b079ae13"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard",
+    "native": "Norwegian",
+    "phone": "+47",
+    "capital": "Longyearbyen",
+    "currency": "NOK",
+    "flag": "https://flagcdn.com/sj.svg",
+    "id": "5eaca771321b5f56b079ae14"
+  },
+  {
+    "code": "TH",
+    "name": "Tailândia",
+    "native": "Thai",
+    "phone": "+66",
+    "capital": "Bangkok",
+    "currency": "THB",
+    "flag": "https://flagcdn.com/th.svg",
+    "id": "5eaca771321b5f56b079ae1c"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "native": "Taiwanese",
+    "phone": "+886",
+    "capital": "Taipei",
+    "currency": "TWD",
+    "flag": "https://flagcdn.com/tw.svg",
+    "id": "5eaca771321b5f56b079ae19"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajiquistão",
+    "native": "Tadzhik",
+    "phone": "+992",
+    "capital": "Dushanbe",
+    "currency": "TJS",
+    "flag": "https://flagcdn.com/tj.svg",
+    "id": "5eaca771321b5f56b079ae1a"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzânia",
+    "native": "Tanzanian",
+    "phone": "+255",
+    "capital": "Dodoma",
+    "currency": "TZS",
+    "flag": "https://flagcdn.com/tz.svg",
+    "id": "5eaca771321b5f56b079ae1b"
+  },
+  {
+    "code": "TF",
+    "name": "Terras Austrais e Antárticas Francesas",
+    "native": "French",
+    "phone": "+262",
+    "capital": "Port-aux-Français",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/tf.svg",
+    "id": "5eaca770321b5f56b079ad8c"
+  },
+  {
+    "code": "IO",
+    "name": "Território Britânico do Oceano Índico",
+    "native": "Indian",
+    "phone": "+246",
+    "capital": "Diego Garcia",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/io.svg",
+    "id": "5eaca770321b5f56b079ad5c"
+  },
+  {
+    "code": "TL",
+    "name": "Timor Leste",
+    "native": "East Timorese",
+    "phone": "+670",
+    "capital": "Dili",
+    "currency": "USD",
+    "flag": "https://flagcdn.com/tl.svg",
+    "id": "5eaca771321b5f56b079ae1d"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "native": "Togolese",
+    "phone": "+228",
+    "capital": "Lomé",
+    "currency": "XOF",
+    "flag": "https://flagcdn.com/tg.svg",
+    "id": "5eaca771321b5f56b079ae1e"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "native": "Tongan",
+    "phone": "+676",
+    "capital": "Nuku'alofa",
+    "currency": "TOP",
+    "flag": "https://flagcdn.com/to.svg",
+    "id": "5eaca771321b5f56b079ae20"
+  },
+  {
+    "code": "TK",
+    "name": "Toquelau",
+    "native": "Tokelauan",
+    "phone": "+690",
+    "capital": "Fakaofo",
+    "currency": "NZD",
+    "flag": "https://flagcdn.com/tk.svg",
+    "id": "5eaca771321b5f56b079ae1f"
+  },
+  {
+    "code": "TT",
+    "name": "Trindade e Tobago",
+    "native": "Trinidadian",
+    "phone": "+1",
+    "capital": "Port of Spain",
+    "currency": "TTD",
+    "flag": "https://flagcdn.com/tt.svg",
+    "id": "5eaca771321b5f56b079ae21"
+  },
+  {
+    "code": "TN",
+    "name": "Tunísia",
+    "native": "Tunisian",
+    "phone": "+216",
+    "capital": "Tunis",
+    "currency": "TND",
+    "flag": "https://flagcdn.com/tn.svg",
+    "id": "5eaca771321b5f56b079ae22"
+  },
+  {
+    "code": "TM",
+    "name": "Turquemenistão",
+    "native": "Turkmen",
+    "phone": "+993",
+    "capital": "Ashgabat",
+    "currency": "TMT",
+    "flag": "https://flagcdn.com/tm.svg",
+    "id": "5eaca771321b5f56b079ae24"
+  },
+  {
+    "code": "TR",
+    "name": "Turquia",
+    "native": "Turkish",
+    "phone": "+90",
+    "capital": "Ankara",
+    "currency": "TRY",
+    "flag": "https://flagcdn.com/tr.svg",
+    "id": "5eaca771321b5f56b079ae23"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "native": "Tuvaluan",
+    "phone": "+688",
+    "capital": "Funafuti",
+    "currency": "AUD",
+    "flag": "https://flagcdn.com/tv.svg",
+    "id": "5eaca771321b5f56b079ae26"
+  },
+  {
+    "code": "UA",
+    "name": "Ucrânia",
+    "native": "Ukrainian",
+    "phone": "+380",
+    "capital": "Kiev",
+    "currency": "UAH",
+    "flag": "https://flagcdn.com/ua.svg",
+    "id": "5eaca771321b5f56b079ae28"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "native": "Ugandan",
+    "phone": "+256",
+    "capital": "Kampala",
+    "currency": "UGX",
+    "flag": "https://flagcdn.com/ug.svg",
+    "id": "5eaca771321b5f56b079ae27"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguai",
+    "native": "Uruguayan",
+    "phone": "+598",
+    "capital": "Montevideo",
+    "currency": "UYU",
+    "flag": "https://flagcdn.com/uy.svg",
+    "id": "5eaca771321b5f56b079ae2c"
+  },
+  {
+    "code": "UZ",
+    "name": "Usbequistão",
+    "native": "Uzbekistani",
+    "phone": "+998",
+    "capital": "Tashkent",
+    "currency": "UZS",
+    "flag": "https://flagcdn.com/uz.svg",
+    "id": "5eaca771321b5f56b079ae2d"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "native": "Ni-Vanuatu",
+    "phone": "+678",
+    "capital": "Port Vila",
+    "currency": "VUV",
+    "flag": "https://flagcdn.com/vu.svg",
+    "id": "5eaca771321b5f56b079ae2e"
+  },
+  {
+    "code": "VA",
+    "name": "Vaticano",
+    "native": "",
+    "phone": "+379",
+    "capital": "Rome",
+    "currency": "EUR",
+    "flag": "https://flagcdn.com/va.svg",
+    "id": "5eaca770321b5f56b079ad9f"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "native": "Venezuelan",
+    "phone": "+58",
+    "capital": "Caracas",
+    "currency": "VEF",
+    "flag": "https://flagcdn.com/ve.svg",
+    "id": "5eaca771321b5f56b079ae2f"
+  },
+  {
+    "code": "VN",
+    "name": "Vietname",
+    "native": "Vietnamese",
+    "phone": "+84",
+    "capital": "Hanoi",
+    "currency": "VND",
+    "flag": "https://flagcdn.com/vn.svg",
+    "id": "5eaca771321b5f56b079ae30"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis e Futuna",
+    "native": "Wallis and Futuna Islander",
+    "phone": "+681",
+    "capital": "Mata-Utu",
+    "currency": "XPF",
+    "flag": "https://flagcdn.com/wf.svg",
+    "id": "5eaca771321b5f56b079ae31"
+  },
+  {
+    "code": "ZM",
+    "name": "Zâmbia",
+    "native": "Zambian",
+    "phone": "+260",
+    "capital": "Lusaka",
+    "currency": "ZMW",
+    "flag": "https://flagcdn.com/zm.svg",
+    "id": "5eaca771321b5f56b079ae34"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabué",
+    "native": "Zimbabwean",
+    "phone": "+263",
+    "capital": "Harare",
+    "currency": "ZMW",
+    "flag": "https://flagcdn.com/zw.svg",
+    "id": "5eaca771321b5f56b079ae35"
+  }
+]

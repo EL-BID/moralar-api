@@ -1,0 +1,576 @@
+[
+  {
+    "code": "332",
+    "name": "Acesso Soluções de pagamento",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c30"
+  },
+  {
+    "code": "121",
+    "name": "Agibank",
+    "accountMask": "9999999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c31"
+  },
+  {
+    "code": "461",
+    "name": "ASAAS IP",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c32"
+  },
+  {
+    "code": "246",
+    "name": "Banco ABC Brasil",
+    "accountMask": "9999999999",
+    "agencyMask": "9999-D",
+    "id": "66226331233c578722e76c33"
+  },
+  {
+    "code": "047",
+    "name": "Banco Banese",
+    "accountMask": "99999999-D",
+    "agencyMask": "999",
+    "id": "66226331233c578722e76c34"
+  },
+  {
+    "code": "318",
+    "name": "Banco BMG",
+    "accountMask": "99999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c35"
+  },
+  {
+    "code": "208",
+    "name": "Banco BTG Pactual",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c36"
+  },
+  {
+    "code": "413",
+    "name": "BANCO BV S.A.",
+    "accountMask": "9999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c37"
+  },
+  {
+    "code": "336",
+    "name": "Banco C6",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c38"
+  },
+  {
+    "code": "412-x",
+    "name": "Banco Capital S.A",
+    "accountMask": "999999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c39"
+  },
+  {
+    "code": "003",
+    "name": "Banco da Amazonia",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c3a"
+  },
+  {
+    "code": "707",
+    "name": "Banco Daycoval",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c3b"
+  },
+  {
+    "code": "001",
+    "name": "Banco do Brasil",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999-D",
+    "id": "66226331233c578722e76c3c"
+  },
+  {
+    "code": "004",
+    "name": "Banco do Nordeste",
+    "accountMask": "999999-D",
+    "agencyMask": "999",
+    "id": "66226331233c578722e76c3d"
+  },
+  {
+    "code": "125",
+    "name": "Banco Genial",
+    "accountMask": "9999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c3e"
+  },
+  {
+    "code": "630",
+    "name": "Banco Letsbank S.A",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c3f"
+  },
+  {
+    "code": "613",
+    "name": "Banco Omni",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c40"
+  },
+  {
+    "code": "212",
+    "name": "Banco Original",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c41"
+  },
+  {
+    "code": "623",
+    "name": "Banco Pan",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c42"
+  },
+  {
+    "code": "741",
+    "name": "Banco Ribeirão Preto",
+    "accountMask": "9999999999",
+    "agencyMask": "99999",
+    "id": "66226331233c578722e76c43"
+  },
+  {
+    "code": "082",
+    "name": "Banco Topazio",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c44"
+  },
+  {
+    "code": "348",
+    "name": "BANCO XP S.A.",
+    "accountMask": "9999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c45"
+  },
+  {
+    "code": "021",
+    "name": "Banestes",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c46"
+  },
+  {
+    "code": "037",
+    "name": "Banpará",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c47"
+  },
+  {
+    "code": "041",
+    "name": "Banrisul",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c48"
+  },
+  {
+    "code": "224",
+    "name": "BCO FIBRA S.A",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c49"
+  },
+  {
+    "code": "637",
+    "name": "BCO SOFISA S.A.",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c4a"
+  },
+  {
+    "code": "752",
+    "name": "BNP Paribas Brasil",
+    "accountMask": "999999-DDD",
+    "agencyMask": "999",
+    "id": "66226331233c578722e76c4b"
+  },
+  {
+    "code": "237",
+    "name": "Bradesco/Next",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999-D",
+    "id": "66226331233c578722e76c4c"
+  },
+  {
+    "code": "070",
+    "name": "BRB",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c4d"
+  },
+  {
+    "code": "173",
+    "name": "BRL Trust DTVM",
+    "accountMask": "999999-D",
+    "agencyMask": "999",
+    "id": "66226331233c578722e76c4e"
+  },
+  {
+    "code": "218",
+    "name": "BS2",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c4f"
+  },
+  {
+    "code": "104",
+    "name": "Caixa Econômica",
+    "accountMask": "XXX99999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c50"
+  },
+  {
+    "code": "273",
+    "name": "CCR de São Miguel do Oeste",
+    "accountMask": "99999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c51"
+  },
+  {
+    "code": "509",
+    "name": "CELCOIN INSTITUICAO DE PAGAMENTO S.A.",
+    "accountMask": "99999999999999999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c52"
+  },
+  {
+    "code": "745",
+    "name": "Citibank",
+    "accountMask": "99999999",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c53"
+  },
+  {
+    "code": "542",
+    "name": "CLOUD WALK MEIOS DE PAGAMENTOS E SERVICOS LTDA",
+    "accountMask": "9999999999999999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c54"
+  },
+  {
+    "code": "97",
+    "name": "Cooperativa Central de Credito Noroeste Brasileiro",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226331233c578722e76c55"
+  },
+  {
+    "code": "403",
+    "name": "Cora",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c56"
+  },
+  {
+    "code": "089",
+    "name": "Credisan",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c57"
+  },
+  {
+    "code": "069",
+    "name": "Crefisa",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c58"
+  },
+  {
+    "code": "133",
+    "name": "Cresol",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c59"
+  },
+  {
+    "code": "450",
+    "name": "Fitbank",
+    "accountMask": "999999999-9",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5a"
+  },
+  {
+    "code": "364",
+    "name": "Gerencianet Pagamentos do Brasil",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5b"
+  },
+  {
+    "code": "384",
+    "name": "Global SCM",
+    "accountMask": "99999999999",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5c"
+  },
+  {
+    "code": "523",
+    "name": "HR Digital Sociedade de Crédito Direto S.A",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5d"
+  },
+  {
+    "code": "077",
+    "name": "Inter",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5e"
+  },
+  {
+    "code": "341",
+    "name": "Itaú",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c5f"
+  },
+  {
+    "code": "451",
+    "name": "J17 - SCD S.A",
+    "accountMask": "99999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c60"
+  },
+  {
+    "code": "376",
+    "name": "JP Morgan",
+    "accountMask": "99999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c61"
+  },
+  {
+    "code": "383",
+    "name": "Juno",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c62"
+  },
+  {
+    "code": "323",
+    "name": "Mercado Pago",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c63"
+  },
+  {
+    "code": "389",
+    "name": "Mercantil do Brasil",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c64"
+  },
+  {
+    "code": "746",
+    "name": "Modal",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c65"
+  },
+  {
+    "code": "274",
+    "name": "Money Plus",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c66"
+  },
+  {
+    "code": "735",
+    "name": "Neon",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c67"
+  },
+  {
+    "code": "536",
+    "name": "Neon Pagamentos S.A. IP",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c68"
+  },
+  {
+    "code": "655",
+    "name": "Neon/Votorantim",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c69"
+  },
+  {
+    "code": "260",
+    "name": "Nubank",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c6a"
+  },
+  {
+    "code": "355",
+    "name": "Ótimo",
+    "accountMask": "99999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c6b"
+  },
+  {
+    "code": "290",
+    "name": "Pagseguro",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c6c"
+  },
+  {
+    "code": "174",
+    "name": "Pefisa",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c6d"
+  },
+  {
+    "code": "380",
+    "name": "Picpay",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c6e"
+  },
+  {
+    "code": "529",
+    "name": "Pinbank",
+    "accountMask": "99999999-D",
+    "agencyMask": "999",
+    "id": "66226332233c578722e76c6f"
+  },
+  {
+    "code": "301",
+    "name": "PJBank",
+    "accountMask": "9999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c70"
+  },
+  {
+    "code": "093",
+    "name": "Polocred",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c71"
+  },
+  {
+    "code": "329",
+    "name": "QI Sociedade de Crédito",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c72"
+  },
+  {
+    "code": "633",
+    "name": "Rendimento",
+    "accountMask": "9999999999",
+    "agencyMask": "9999-D",
+    "id": "66226332233c578722e76c73"
+  },
+  {
+    "code": "422",
+    "name": "Safra",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c74"
+  },
+  {
+    "code": "033",
+    "name": "Santander",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c75"
+  },
+  {
+    "code": "756",
+    "name": "Sicoob",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c76"
+  },
+  {
+    "code": "748",
+    "name": "Sicredi",
+    "accountMask": "99999999D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c77"
+  },
+  {
+    "code": "363",
+    "name": "Singulare",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c78"
+  },
+  {
+    "code": "197",
+    "name": "Stone",
+    "accountMask": "9999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c79"
+  },
+  {
+    "code": "404",
+    "name": "SUMUP SCD S.A.",
+    "accountMask": "999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7a"
+  },
+  {
+    "code": "136",
+    "name": "Unicred",
+    "accountMask": "99999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7b"
+  },
+  {
+    "code": "099",
+    "name": "Uniprime",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7c"
+  },
+  {
+    "code": "084",
+    "name": "Uniprime Norte do Paraná",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7d"
+  },
+  {
+    "code": "457",
+    "name": "UY3 SCD S.A",
+    "accountMask": "99999999",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7e"
+  },
+  {
+    "code": "085",
+    "name": "Via Credi/Civia Cooperativa",
+    "accountMask": "99999999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c7f"
+  },
+  {
+    "code": "310",
+    "name": "VORTX DTVM LTDA",
+    "accountMask": "999-D",
+    "agencyMask": "9999-D",
+    "id": "66226332233c578722e76c80"
+  },
+  {
+    "code": "102",
+    "name": "XP Investimentos",
+    "accountMask": "999999-D",
+    "agencyMask": "9999",
+    "id": "66226332233c578722e76c81"
+  }
+]

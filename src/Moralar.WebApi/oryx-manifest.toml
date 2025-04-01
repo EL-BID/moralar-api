@@ -1,0 +1,13 @@
+# oryx-manifest.toml
+
+[build]
+platform = "dotnet"
+platform_version = "8.0"
+build_commands = [
+    "dotnet restore",
+    "dotnet build --configuration Release",
+    "dotnet publish --configuration Release --output /"
+]
+
+[run]
+entrypoint = "dotnet /Moralar.WebApi.dll"

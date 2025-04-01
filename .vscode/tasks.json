@@ -1,0 +1,83 @@
+{
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "publishProfile",
+            "type": "pickString",
+            "default": "Development",
+            "description": "Definir qual publish profile deve ser usado",
+            "options": [
+                "Development",
+                "Homolog",
+                "Production"
+            ]
+        },
+        {
+            "id": "urlOpen",
+            "type": "pickString",
+            "default": "https://apidev.megaleios.com/ApiMoralarDev/swagger",
+            "description": "selecionar url que deve se aberta no browser",
+            "options": [
+                "https://apidev.megaleios.com/ApiMoralarDev/swagger",
+                "https://apihom.megaleios.com/ApiMoralarHml/swagger",
+                "https://api-Moralar.megaleios.com/swagger"
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "options": {
+                "statusbar": {
+                    "hide": true
+                }
+            },
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Moralar.WebApi/Moralar.WebApi.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary",
+                "/p:CheckEolTargetFramework=false",
+                "-v:m",
+                "-p:WarningLevel=0",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "DEPLOY",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "options": {
+                "statusbar": {
+                    "hide": true
+                }
+            },
+            "type": "shell",
+            "command": "msbuild",
+            "args": [
+                "${workspaceFolder}/src/Moralar.WebApi/Moralar.WebApi.csproj",
+                "-v:m",
+                "-p:WarningLevel=0",
+                "-p:DeployOnBuild=true",
+                "-p:PublishProfile=${input:publishProfile}",
+                "-p:Configuration=${input:publishProfile}",
+                "-p:Username={username}",
+                "-p:Password={password}"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "API",
+            "type": "process",
+            "command": "explorer",
+            "dependsOn": "DEPLOY",
+            "group": "build",
+            "args": [
+                "${input:urlOpen}"
+            ]
+        }
+    ]
+}
