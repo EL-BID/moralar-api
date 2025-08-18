@@ -35,6 +35,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
     <ProjectReference Include="..\Moralar.Data\Moralar.Data.csproj" />
   </ItemGroup>
 
