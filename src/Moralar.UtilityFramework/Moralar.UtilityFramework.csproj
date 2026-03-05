@@ -18,7 +18,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.0.4" />
     <PackageReference Include=" Microsoft.AspNetCore.Localization" Version="1.1.3" />
 
-    <PackageReference Include="MimeKit" Version="4.9.0" />
+    <PackageReference Include="MimeKit" Version="4.15.1" />
     <PackageReference Include="MailKit" Version="4.9.0" />
 
     <PackageReference Include="AspNetCore.Firebase.Authentication" Version="1.0.5" />
